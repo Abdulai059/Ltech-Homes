@@ -1,0 +1,507 @@
+:root {
+  --primary-color: #d32f2f;
+  --secondary-color: #666;
+  --bg-color: #fff;
+  --light-bg: #f8f9fa;
+  --text-color: #333;
+  --light-text: #7f8c8d;
+  --defaut-light-text: #6c757d;
+  --dark-header-text: #2c3e50;
+}
+/* 
+.ltech-contact-form * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}*/
+
+.ltech-contact-form {
+  line-height: 1.6;
+  background: var(--bg-color);
+} 
+
+.main-wrapper{
+  padding-top: 110px;
+}
+
+.ltech-contact-form .contact-wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+  /* padding-top: 10rem; */
+  /* padding: 90px 20px; */
+}
+.contact-wrapper{
+  background-color: var(--light-bg);
+}
+
+.ltech-contact-form .maps-title {
+  font-size: 49px;
+  margin-bottom: 2rem;
+  font-weight: 500;
+}
+
+.maps-title{
+ color: var(--dark-header-text);
+ margin-top: 4rem;
+}
+
+.ltech-contact-form .maps-description {
+  font-size: 12px;
+  /* margin-bottom: 3rem; */
+}
+
+/*-----------------------
+ Enquiry Form Section 
+ -----------------------*/
+.ltech-contact-form .enquiry-section {
+  padding: 50px 10px;
+  margin: 0;
+}
+
+.ltech-contact-form .form-title {
+  font-size: 2rem;
+  color: var(--primary-color);
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+
+.ltech-contact-form .form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  margin-bottom: 25px;
+}
+
+.ltech-contact-form .form-column {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.ltech-contact-form .form-group {
+  position: relative;
+}
+
+/* SOLUTION 1: Ensure consistent box-sizing and dimensions */
+.ltech-contact-form .form-input,
+.ltech-contact-form .form-select {
+  width: 100%;
+  height: 49px; /* Fixed height for consistency */
+  padding: 10px;
+  border: 2px solid #e8e8e8;
+  /* border-radius: 8px; */
+  font-size: 14px;
+  background: #f8f9fa;
+  transition: all 0.3s ease;
+  color: #999;
+  /* Ensure consistent box model */
+  box-sizing: border-box;
+  /* Remove default appearance for selects */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+/* Custom arrow for select */
+.ltech-contact-form .form-select {
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-position: right 15px center;
+  background-size: 16px;
+  padding-right: 30px; /* Extra padding for arrow */
+}
+
+.ltech-contact-form .form-input:focus,
+.ltech-contact-form .form-select:focus {
+  outline: none;
+  border-color: var(--primary-color);
+  background-color: white;
+  color: #333;
+}
+
+.ltech-contact-form .form-input.filled,
+.ltech-contact-form .form-select.filled {
+  background-color: white;
+  color: #333;
+}
+
+.ltech-contact-form .form-textarea {
+  width: 100%;
+  padding: 6px;
+  border: 2px solid #e8e8e8;
+  /* border-radius: 8px; */
+  font-size: 1rem;
+  background: #f8f9fa;
+  min-height: 2px;
+  resize: none;
+  transition: all 0.3s ease;
+  color: #999;
+  box-sizing: border-box;
+  font-family: inherit;
+}
+
+.ltech-contact-form .form-textarea:focus {
+  outline: none;
+  border-color: var(--primary-color);
+  background-color: white;
+  color: #333;
+}
+
+.ltech-contact-form .form-textarea.filled {
+  background-color: white;
+  color: #333;
+}
+
+.ltech-contact-form .required {
+  color: var(--primary-color);
+}
+
+.ltech-contact-form .newsletter-section {
+  margin: 30px 0;
+}
+
+.ltech-contact-form .newsletter-title input[type="checkbox"] {
+  transform: scale(1.5);
+  accent-color: var(--primary-color);
+  margin-right: 8px;
+}
+
+.ltech-contact-form .newsletter-title {
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #333;
+  display: block;
+}
+
+.ltech-contact-form .newsletter-text {
+  font-size: 0.95rem;
+  color: #666;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.ltech-contact-form .privacy-text {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.ltech-contact-form .privacy-link {
+  color: var(--primary-color);
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.ltech-contact-form .submit-btn {
+  background: #333;
+  color: white;
+  padding: 14px 30px;
+  border: none;
+  /* border-radius: 8px; */
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.ltech-contact-form .submit-btn:hover {
+  background: #555;
+  transform: translateY(-2px);
+}
+
+/* Full width textarea row */
+.ltech-contact-form .form-row.full-width {
+  grid-template-columns: 1fr;
+}
+
+/* Success Message Popup Styles */
+.ltech-contact-form .success-message {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
+  color: #2d3748;
+  border: none;
+  padding: 50px 40px;
+  font-size: 1.3rem;
+  font-weight: 600;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15),
+    0 0 0 1px rgba(255, 255, 255, 0.05);
+  z-index: 9999;
+  min-width: 400px;
+  max-width: 500px;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  opacity: 0;
+  backdrop-filter: blur(10px);
+}
+
+.ltech-contact-form .success-message.show {
+  transform: translate(-50%, -50%) scale(1);
+  opacity: 1;
+}
+
+.ltech-contact-form .success-message::before {
+  content: "✓";
+  display: block;
+  font-size: 4rem;
+  color: #10b981;
+  margin-bottom: 20px;
+  font-weight: bold;
+  text-shadow: 0 2px 4px rgba(16, 185, 129, 0.3);
+}
+
+.ltech-contact-form .success-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #1a202c;
+  margin-bottom: 10px;
+  letter-spacing: -0.5px;
+}
+
+.ltech-contact-form .success-text {
+  font-size: 1rem;
+  color: #4a5568;
+  line-height: 1.5;
+  font-weight: normal;
+}
+
+/* Backdrop overlay */
+.ltech-contact-form .success-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(8px);
+  z-index: 9998;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.4s ease;
+}
+
+.ltech-contact-form .success-backdrop.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+@media (max-width: 480px) {
+  .ltech-contact-form .success-message {
+    min-width: 320px;
+    padding: 40px 30px;
+    margin: 0 20px;
+  }
+
+  .ltech-contact-form .success-message::before {
+    font-size: 3rem;
+    margin-bottom: 15px;
+  }
+
+  .ltech-contact-form .success-title {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .ltech-contact-form .enquiry-section {
+    padding: 40px 30px;
+  }
+
+  .ltech-contact-form .form-row {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .ltech-contact-form .form-title {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .ltech-contact-form .enquiry-section {
+    padding: 30px 20px;
+  }
+
+  .ltech-contact-form .form-title {
+    font-size: 2rem;
+  }
+}
+
+/* ------------------------
+  Contact Details Section 
+ -------------------------*/
+
+.ltech-contact-form .contact-section {
+  padding: 40px 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+}
+
+.ltech-contact-form .contact-us-section {
+  padding: 0 60px;
+  background: white;
+}
+
+.ltech-contact-form .details-title {
+  font-size: 2rem;
+  color: var(--primary-color);
+  /* margin-bottom: 0px; */
+  font-weight: bold;
+  grid-column: 1 / -1;
+}
+
+.ltech-contact-form .office-list {
+  list-style: none;
+}
+
+.ltech-contact-form .office-item {
+  color: var(--text-color);
+  padding: 18px 0;
+  border-bottom: 1px solid #eee;
+  cursor: pointer;
+  position: relative;
+  padding-left: 40px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.ltech-contact-form .office-item:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+  background: var(--primary-color);
+  border-radius: 50%;
+}
+
+.ltech-contact-form .office-item.active {
+  color: var(--primary-color);
+  font-weight: bold;
+  font-size: 1rem;
+  padding-left: 45px;
+}
+
+.ltech-contact-form .office-item.active:before {
+  background: var(--primary-color);
+}
+
+.ltech-contact-form .office-details {
+  background: #f8f9fa;
+  padding: 40px;
+  border-left: 2px solid var(--primary-color);
+}
+
+.ltech-contact-form .office-name {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.ltech-contact-form .office-subtitle {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #666;
+}
+
+.ltech-contact-form .office-address {
+  margin-bottom: 30px;
+  line-height: 1.8;
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--secondary-color);
+}
+
+.ltech-contact-form .contact-info {
+  display: grid;
+  gap: 15px;
+}
+
+.ltech-contact-form .contact-row {
+  display: grid;
+  grid-template-columns: 80px 1fr;
+  align-items: center;
+}
+
+.ltech-contact-form .contact-label {
+  font-weight: bold;
+  color: var(--text-color);
+  font-size: 1rem;
+}
+
+.ltech-contact-form .contact-value {
+  color: var(--secondary-color);
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.ltech-contact-form .contact-value.website {
+  color: var(--primary-color);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.ltech-contact-form .contact-value.website:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .ltech-contact-form .contact-header,
+  .ltech-contact-form .enquiry-section,
+  .ltech-contact-form .contact-section {
+    padding: 30px 30px;
+  }
+
+  .ltech-contact-form .contact-us-section {
+    padding: 0px;
+  }
+  .ltech-contact-form .office-details {
+    padding: 27px;
+  }
+
+  .ltech-contact-form .form-row {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .ltech-contact-form .contact-section {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .ltech-contact-form .contact-title {
+    font-size: 3rem;
+  }
+
+  .ltech-contact-form .form-title,
+  .ltech-contact-form .details-title {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .ltech-contact-form .contact-header,
+  .ltech-contact-form .enquiry-section,
+  .ltech-contact-form .contact-section {
+    padding: 30px 20px;
+  }
+
+  .ltech-contact-form .contact-title {
+    font-size: 2.5rem;
+  }
+
+  .ltech-contact-form .form-title,
+  .ltech-contact-form .details-title {
+    font-size: 2rem;
+  }
+}
