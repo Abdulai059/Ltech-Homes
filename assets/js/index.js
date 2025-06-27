@@ -26,9 +26,9 @@ document.addEventListener("DOMContentLoaded", function () {
   let isAutoSliding = true;
 
   // Animation timing
-  const INITIAL_DELAY = 2000;
+  const INITIAL_DELAY = 8000;
   const NORMAL_INTERVAL = 5000;
-  const TRANSITION_DURATION = 800;
+  const TRANSITION_DURATION = 1000;
 
   // Slide content configuration
   const slideConfig = [

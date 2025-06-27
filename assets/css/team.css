@@ -58,12 +58,6 @@
   pointer-events: none;
   white-space: nowrap;
   font-family: "Arial Black", "Arial Bold", Arial, sans-serif;
-  /* background: linear-gradient(
-          to bottom,
-          rgb(8 42 123 / 35%) 30%,
-          rgb(255 255 255 / 0%) 76%
-        ); */
-
   background: linear-gradient(
     to bottom,
     #4a5568 0%,

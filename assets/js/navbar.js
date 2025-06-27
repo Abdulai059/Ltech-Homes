@@ -63,10 +63,10 @@ function closeMobileMenu() {
   });
 }
 
-// Navbar scroll effect with throttling
+// ✅ Updated: Navbar scroll effect with throttling
 const handleScroll = throttle(function () {
   const navbar = document.querySelector(".navbar");
-  if (navbar) {
+  if (navbar && navbar.classList.contains("navbar-home")) {
     if (window.scrollY > 50) {
       navbar.classList.add("scrolled");
     } else {
@@ -77,10 +77,10 @@ const handleScroll = throttle(function () {
 
 window.addEventListener("scroll", handleScroll);
 
-// Initialize navbar state on load
+// ✅ Updated: Initialize navbar state on load
 document.addEventListener("DOMContentLoaded", function () {
   const navbar = document.querySelector(".navbar");
-  if (navbar && window.scrollY > 50) {
+  if (navbar && navbar.classList.contains("navbar-home") && window.scrollY > 50) {
     navbar.classList.add("scrolled");
   }
   // Set initial aria-expanded state
@@ -199,27 +199,3 @@ document.addEventListener("keydown", function (e) {
     closeMobileMenu();
   }
 });
-
-// // Handle logo click - close mobile menu if open
-// document.querySelector(".logo").addEventListener("click", function (e) {
-//   e.preventDefault();
-
-//   // Remove active class from all nav links
-//   document
-//     .querySelectorAll(".nav-link")
-//     .forEach((l) => l.classList.remove("active"));
-
-//   // Add active class to Home link
-//   document.querySelector(".nav-link").classList.add("active");
-
-//   // Close mobile menu if open
-//   if (isMobile()) {
-//     closeMobileMenu();
-//   }
-
-//   // Scroll to top
-//   window.scrollTo({
-//     top: 0,
-//     behavior: "smooth",
-//   });
-// });

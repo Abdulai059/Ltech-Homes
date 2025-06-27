@@ -1,0 +1,368 @@
+:root {
+  --primary-color: #d32f2f;
+  --secondary-color: #666;
+  --bg-color: #fff;
+  --light-bg: #f8f9fa;
+  --text-color: #333;
+  --light-text: #7f8c8d;
+  --defaut-light-text: #6c757d;
+  --dark-header-text: #2c3e50;
+}
+
+
+.pd-container {
+  max-width: 1000px;
+  margin: 7rem auto;
+  /* padding: 0 20px; */
+}
+
+/* Header Section */
+.pd-header {
+  background: var(--light-bg);
+  padding: 80px 0 60px;
+  text-align: center;
+}
+
+.pd-header h1 {
+  font-size: 3.5rem;
+  font-weight: 500;
+  color: #2c3e50;
+  margin-bottom: 20px;
+  letter-spacing: -1px;
+}
+
+.pd-header p {
+  font-size: 1rem;
+  color: #6c757d;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  font-weight: 400;
+}
+
+/* Hero Image Section */
+.pd-hero-image {
+  height: 400px;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Content Section */
+.pd-content-section {
+  padding: 50px 0;
+  background: #fff;
+}
+
+.pd-content-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0;
+  min-height: 500px;
+}
+
+/* Value Proposition */
+.pd-value-prop {
+  background: #35363a;
+  color: white;
+  padding: 60px 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.pd-value-prop h3 {
+  font-size: 2.2rem;
+  color: var(--primary-color);
+  margin-bottom: 25px;
+  font-weight: 600;
+  position: relative;
+  z-index: 2;
+}
+
+.pd-value-prop p {
+  font-size: 0.93rem;
+  line-height: 1.7;
+  position: relative;
+  z-index: 2;
+  opacity: 0.95;
+}
+
+/* Professional Associations */
+.pd-associations {
+  background: var(--light-bg);
+  padding: 60px 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.pd-associations h3 {
+  font-size: 2rem;
+  color: var(--primary-color);
+  margin-bottom: 30px;
+  font-weight: 600;
+}
+
+.pd-association-list {
+  list-style: none;
+}
+
+.pd-association-list li {
+  font-size: 1rem;
+  color: #34495e;
+  margin-bottom: 15px;
+  padding-left: 20px;
+  position: relative;
+  line-height: 1.5;
+}
+
+.pd-association-list li::before {
+  content: "•";
+  color: var(--primary-color);
+  font-size: 1.5rem;
+  position: absolute;
+  left: 0;
+  top: -2px;
+}
+
+/*------------------------
+         Features Section
+         ---------------------------- */
+.pd-features-section {
+  /* padding: 50px 0; */
+  color: var(--dark-header-text);
+}
+
+.pd-features-section h2 {
+  text-align: center;
+  font-size: 2.3rem;
+  line-height: 1.5;
+  font-weight: 600;
+  width: 700px;
+  padding: 20px;
+  color: var(--dark-header-text);
+  margin: 0 auto;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0, 1.5);
+}
+
+.pd-features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 35px;
+  margin-top: 30px;
+}
+
+.pd-feature-card {
+  /* background: rgba(255, 255, 255, 0.1); */
+  padding: 20px 30px;
+  border-radius: 5px;
+  text-align: center;
+  backdrop-filter: blur(10px);
+  /* border: 1px solid #35363a; */
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(44, 62, 80, 0.12);
+}
+
+.pd-feature-card:hover {
+  transform: translateY(-10px);
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.pd-feature-icon {
+  font-size: 3rem;
+  display: block;
+  width: 90px;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.pd-feature-icon i {
+  background-color: #f5f5f5;
+  padding: 14px 14px;
+  border-radius: 10px;
+  font-size: 26px;
+  background-color: var(--light-bg);
+}
+
+.pd-feature-card h4 {
+  font-size: 1rem;
+  margin: 20px 0 15px;
+  color: var(--dark-header-text);
+  font-weight: 600;
+}
+
+.pd-feature-card p {
+  font-size: 1rem;
+  opacity: 0.9;
+  line-height: 1.6;
+   text-align: center;
+}
+
+.pd-icon-red {
+  color: #c62828;
+}
+.pd-icon-indigo {
+  color: #3949ab;
+}
+.pd-icon-teal {
+  color: #00897b;
+}
+.pd-icon-gold {
+  color: #f9a825;
+}
+.pd-icon-gray {
+  color: #455a64;
+}
+.pd-icon-blue {
+  color: #1e88e5;
+}
+
+/* -------------------------
+       Hero Stats Section 
+      ----------------------------*/
+.pd-stats-section {
+  background: var(--light-bg);
+  padding: 50px 0;
+  margin-top: 5rem;
+  color: var(--dark-header-text);
+}
+
+.pd-stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 40px;
+  text-align: center;
+}
+
+.pd-stat-item {
+  padding: 20px;
+  transition: transform 0.3s ease;
+}
+
+.pd-stat-number {
+  font-size: 2.7rem;
+  font-weight: 500;
+  color: var(--primary-color);
+  display: block;
+  margin-bottom: 10px;
+}
+
+.pd-stat-label {
+  font-size: 1rem;
+  opacity: 0.9;
+  letter-spacing: 1px;
+}
+
+/* ---------------------
+Intern Section 
+-------------------------*/
+.pd-intern {
+  padding: 80px 0;
+  text-align: center;
+}
+
+.pd-intern-title {
+  font-size: 2.3rem;
+  color: var(--dark-header-text);
+  font-weight: 450;
+  margin-bottom: 15px;
+  position: relative;
+  padding-left: 10px;
+  max-width: 520px;
+  margin: 0 auto;
+}
+
+.pd-intern-title::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 5%;
+  width: 4px;
+  height: 40px;
+  background-color: var(--primary-color);
+}
+
+.pd-intern-description {
+  font-size: 16px;
+  line-height: 1.7;
+  color: var(--dark-header-text);
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.pd-intern-tag {
+  color: var(--primary-color);
+}
+
+.pd-cta-button {
+  display: inline-block;
+  background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%);
+  color: white;
+  padding: 15px 30px;
+  text-decoration: none;
+  border-radius: 50px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  /* box-shadow: 0 5px 15px rgba(231, 76, 60, 0.4); */
+  margin-top: 2rem;
+}
+
+.pd-cta-button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(231, 76, 60, 0.6);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .pd-header h1 {
+    font-size: 2.5rem;
+  }
+
+  .pd-features-section h2 {
+    font-size: 1.5rem;
+    text-align: center;
+    width: 100%;
+  }
+
+  .pd-intern-title {
+    font-size: 1.6rem;
+  }
+
+  .pd-intern-title::before {
+    left: 0;
+    top: 0%;
+  }
+
+  .pd-intern-description {
+    font-size: 14px;
+  }
+
+  .pd-header p {
+    font-size: 1.1rem;
+  }
+
+  .pd-hero-image {
+    height: 300px;
+  }
+
+  .pd-hero-content h2 {
+    font-size: 2rem;
+  }
+
+  .pd-content-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .pd-value-prop,
+  .pd-associations {
+    padding: 40px 30px;
+  }
+
+  .pd-value-prop h3,
+  .pd-associations h3 {
+    font-size: 1.8rem;
+  }
+}
