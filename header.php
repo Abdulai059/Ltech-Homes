@@ -7,8 +7,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
-
-
   <title>Ltech Homes</title>
   <link rel="icon" href="https://res.cloudinary.com/ltect-homes/image/upload/v1750363970/logo-main_m57kgj.jpg" type="image/png" />
 

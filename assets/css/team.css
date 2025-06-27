@@ -1,4 +1,3 @@
-
 :root {
   --primary-color: #d32f2f;
   --secondary-color: #666;
@@ -14,11 +13,10 @@
   --border-color: #dee2e6;
 }
 
-.team-section{
- max-width: 1200px; 
- margin: 0 auto;
+.team-section {
+  max-width: 1200px;
+  margin: 0 auto;
 }
-
 
 .team-wrapper {
   transform: scale(1); /* 0.8 = 80% size, adjust as needed */
@@ -78,7 +76,7 @@
   width: 100%;
   height: clamp(300px, 80vh, 450px);
   position: relative;
-  perspective: 1000px;
+  perspective: 1100px;
   margin-top: 90px;
   overflow: hidden; /* Contain the absolutely positioned cards */
 }
@@ -352,10 +350,6 @@
 
 /* Tablet Portrait (481px to 767px) */
 @media (max-width: 767px) and (min-width: 481px) {
-  body {
-    padding: 15px;
-  }
-
   .about-title {
     font-size: 4rem;
     top: 30px;
@@ -416,10 +410,6 @@
 
 /* Mobile Large (375px to 480px) */
 @media (max-width: 480px) and (min-width: 375px) {
-  body {
-    padding: 10px;
-  }
-
   .about-title {
     font-size: 3rem;
     top: 20px;
@@ -488,10 +478,6 @@
 
 /* Mobile Small (320px to 374px) */
 @media (max-width: 374px) {
-  body {
-    padding: 8px;
-  }
-
   .about-title {
     font-size: 2.5rem;
     top: 15px;
@@ -611,10 +597,6 @@
 
 /* Landscape orientation adjustments */
 @media (orientation: landscape) and (max-height: 500px) {
-  body {
-    padding: 10px;
-  }
-
   .about-title {
     font-size: 2.5rem;
     top: 10px;

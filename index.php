@@ -11,7 +11,7 @@
   <!-- <header class="navbar-wrapper" id="navbar-wrapper"></header> -->
 
   <!-- START HERO SECTION -->
-  <section class="hero-section">
+  <section class="hero-section" id="hero-sec">
     <div class="gradient-split"></div>
     <div class="hero-wrapper">
       <div class="hero-container">

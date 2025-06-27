@@ -380,6 +380,9 @@ Table of content:
     flex-direction: column;
     min-height: 480px;
   }
+  .wcd-service-text{
+    text-align: left;
+  }
 
   .wcd-sidebar {
     width: 100%;
@@ -403,6 +406,9 @@ Table of content:
     position: relative;
   }
 
+  .slide {
+    padding: 0 10px;
+  }
   .wcd-content-section {
     position: absolute;
     left: 0;
@@ -428,9 +434,17 @@ Table of content:
     transform: none;
   }
 
-  .wcd-section-tag::before,
+  .title-des-wrapper {
+    display: block;
+    padding: 10px;
+  }
+
+  .wcd-section-tag::before {
+    left: -60px;
+  }
+
   .wcd-section-tag::after {
-    display: none;
+    right: -60px;
   }
 
   .wcd-icon-arrow {
@@ -605,7 +619,7 @@ Table of content:
   font-size: 0.9rem;
 }
 
-.wcd-demo-note span{
+.wcd-demo-note span {
   font-weight: 600;
   font-size: 1rem;
   color: var(--primary-color);
