@@ -168,7 +168,7 @@ HERO SECTION STYLING
 }
 
 .hero-content .purpose-slide {
-  font-size: 0.8rem;
+  font-size: 1rem;
   font-style: italic;
   margin: 0;
   position: absolute;
@@ -477,7 +477,7 @@ HERO SECTION STYLING
   color: #aaa;
 }
 
-. {
+.search-button-container {
   grid-column: span 3;
   display: flex;
   justify-content: center;
@@ -785,6 +785,8 @@ HERO SECTION STYLING
     width: 100%;
     display: flex;
     justify-content: center;
+    align-items: center;
+    padding: 0;
     /* margin-top: 1rem; */
   }
 

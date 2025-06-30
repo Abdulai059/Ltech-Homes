@@ -128,8 +128,8 @@
 }
 
 /*------------------------
-         Features Section
-         ---------------------------- */
+Features Section
+--------------------------- */
 .pd-features-section {
   /* padding: 50px 0; */
   color: var(--dark-header-text);
@@ -220,12 +220,12 @@
 }
 
 /* -------------------------
-       Hero Stats Section 
-      ----------------------------*/
+ Property Development Stats Section 
+----------------------------*/
 .pd-stats-section {
   background: var(--light-bg);
-  padding: 50px 0;
-  margin-top: 5rem;
+  padding: 15px 0;
+  margin-top: 4rem;
   color: var(--dark-header-text);
 }
 
@@ -242,7 +242,7 @@
 }
 
 .pd-stat-number {
-  font-size: 2.7rem;
+  font-size: 3rem;
   font-weight: 500;
   color: var(--primary-color);
   display: block;
@@ -317,6 +317,10 @@ Intern Section
 
 /* Responsive Design */
 @media (max-width: 768px) {
+
+  .pd-stats-section {
+  margin: 0;
+}
   .pd-header h1 {
     font-size: 2.5rem;
   }
@@ -326,6 +330,7 @@ Intern Section
     text-align: center;
     width: 100%;
   }
+
 
   .pd-intern-title {
     font-size: 1.6rem;
@@ -338,7 +343,14 @@ Intern Section
 
   .pd-intern-description {
     font-size: 14px;
+    width: 80%;
+
   }
+
+  .pd-intern-title::before {
+  left: 5%;
+  top: 5%;
+}
 
   .pd-header p {
     font-size: 1.1rem;

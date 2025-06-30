@@ -11,10 +11,10 @@
 <link rel="stylesheet" href="/assets/css/team.css">
 <main class="main-wrapper">
     <!-- MISSION AND VISION SECTION -->
-    <section class="container">
+    <section class="mission-section">
         <!-- Main Header -->
-        <header class="header">
-            <h1 class="header-title"> Our Purpose and Vision</h1>
+        <header class="m-header">
+            <h1 class="m-header-title"> Our Purpose and Vision</h1>
         </header>
 
         <!-- Mission Section -->
