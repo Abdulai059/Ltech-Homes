@@ -32,7 +32,9 @@
   <link rel="stylesheet" href="/assets/css/navbar.css" />
   <link rel="stylesheet" href="/assets/css/why-choose-us.css">
   <link rel="stylesheet" href="/assets/css/team.css">
+  <link rel="stylesheet" href="/assets/css/mission-team.css">
   <link rel="stylesheet" href="/assets/css/property-management.css">
+  <link rel="stylesheet" href="/assets/css/carrer.css">
 
   <!-- GOOGLE FONTS -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -46,11 +48,10 @@
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
 
-    <!-- bootsrap Icons -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
-    />
+  <!-- bootsrap Icons -->
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
 </head>
 
 <body>
@@ -76,17 +77,16 @@
             <a href="/about-us/mission-team.php" class="dropdown-item">Our Story</a>
             <a href="/about-us/mission-team.php#team-members-section" class="dropdown-item">Our Team</a>
             <a href="/about-us/ltech-overview.php" class="dropdown-item">Mission & Vision</a>
-            <a href="#" class="dropdown-item">Careers</a>
+            <a href="/index.php#carrer-section" class="dropdown-item">Careers</a>
             <a href="#" class="dropdown-item">Awards</a>
           </div>
         </li>
         <li class="nav-item dropdown">
           <a href="#" class="nav-link dropdown-toggle">Services</a>
           <div class="dropdown-content">
-            <a href="/pages/services/Property-development.php" class="dropdown-item">Property Development</a>
-            <a href="#" class="dropdown-item">Facility Management</a>
+            <a href="/pages/services/property-development.php" class="dropdown-item">Property Development</a>
+            <a href="/pages/services/facility-mangement.php" class="dropdown-item">Facility Management</a>
             <a href="/pages/services/property-management.php" class="dropdown-item">Property Management</a>
-            <a href="#" class="dropdown-item">Support Services</a>
             <!-- <a href="#" class="dropdown-item">Careers</a>
             <a href="#" class="dropdown-item">Awards</a> -->
           </div>

@@ -219,6 +219,30 @@
     <?php include 'about-us/our-team.php'; ?>
   </section>
 
+  <section id="carrer-section">
+    <div class="job-container">
+      <div class="job-header" data-aos="fade-up"
+        data-aos-delay="120">>
+        <h1>Start Your Careers</h1>
+        <p>Want To Work With Us?</p>
+      </div>
+
+      <div class="job-card" data-aos="fade-left" data-aos-delay="120">
+        <h2 class="job-title">Customer Service Associate</h2>
+        <p class="job-description">
+          Are you passionate about engaging with customers? Do you want to make
+          an impact in the field of customer service? Then you should join our
+          team.
+        </p>
+        <div class="job-options">
+          <span class="work-type on-site">On-Site</span>
+          <span class="work-type part-time">Part-time</span>
+          <a href="#" class="apply-btn" onclick="handleApply()">Apply</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- START TESTIMONIAL SECTION -->
   <section class="testimonial-section py-5">
     <div class="testimonial-container">

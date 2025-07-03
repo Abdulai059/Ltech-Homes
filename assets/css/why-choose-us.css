@@ -101,6 +101,7 @@ Table of content:
   border-radius: 10px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
   min-height: 300px;
+  animation: wcdFadeIn 0.8s ease-out;
 }
 
 .wcd-mission-content {
@@ -257,7 +258,7 @@ Table of content:
 }
 
 .carousel-inner {
-  border-radius: 10px;
+  border-radius: 5px;
 }
 /* ---------------------------
    1. Enhanced arrow container styling
@@ -366,10 +367,14 @@ Table of content:
   .wcd-container {
     width: 100%;
   }
-
+  
   .wcd-main-content {
     grid-template-columns: 1fr;
     gap: 40px;
+  }
+  
+  .wcd-mission-header, .wcd-demo-note{
+    padding: 0 20px;
   }
 
   .wcd-left-content h1 {
@@ -436,7 +441,7 @@ Table of content:
 
   .title-des-wrapper {
     display: block;
-    padding: 10px;
+    padding: 20px;
   }
 
   .wcd-section-tag::before {
@@ -471,9 +476,6 @@ Table of content:
   }
 }
 
-.wcd-mission-container {
-  animation: wcdFadeIn 0.8s ease-out;
-}
 
 /* ---------------------------
     2.  Enhanced video popup container styling

@@ -8,7 +8,8 @@
     <div class="pm-container">
         <!-- Header Section -->
         <section class="pm-header">
-            <div class="pm-container">
+            <div class="pm-container" data-aos="fade-up"
+                data-aos-delay="120">
                 <h1>Property Management</h1>
                 <p>
                     Robust range of investor services designed to drive real estate
@@ -19,7 +20,8 @@
 
         <!-- Hero Image Section -->
         <section class="pm-hero-image">
-            <div class="hero-content">
+            <div class="hero-content" data-aos="zoom-in"
+                data-aos-delay="120">
                 <img src="/assets/images/glow_slide3.jpeg" alt="" />
             </div>
         </section>
@@ -28,7 +30,8 @@
         <section class="pm-content-section">
             <div class="pm-content-grid">
                 <!-- Value Proposition -->
-                <div class="value-prop">
+                <div class="value-prop" data-aos="fade-right"
+                    data-aos-delay="120">
                     <h3>Our Value Proposition</h3>
                     <p>
                         Ltech Homes is a leading estate company in Ghana specializing in
@@ -42,7 +45,8 @@
                 </div>
 
                 <!-- Our Services -->
-                <div class="associations">
+                <div class="associations" data-aos="fade-left"
+                    data-aos-delay="120">
                     <h3>Our Services</h3>
                     <ul class="association-list">
                         <li>Commercial Property Management</li>
@@ -56,10 +60,11 @@
         </section>
 
         <!-- Intern Section -->
-        <div class="intern">
+        <div class="intern" data-aos="fade-up"
+            data-aos-delay="120">
             <h2 class="intern-title">Excellence in Property Management</h2>
             <p class="intern-description">
-               Delivering superior returns across Ghana's largest <span class="intern-tag">portfolios</span>
+                Delivering superior returns across Ghana's largest <span class="intern-tag">portfolios</span>
             </p>
         </div>
     </div>

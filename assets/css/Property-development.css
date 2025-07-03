@@ -9,14 +9,15 @@
   --dark-header-text: #2c3e50;
 }
 
-
 .pd-container {
   max-width: 1000px;
   margin: 7rem auto;
   /* padding: 0 20px; */
 }
 
-/* Header Section */
+/*-------------------
+ Header Section 
+ --------------------*/
 .pd-header {
   background: var(--light-bg);
   padding: 80px 0 60px;
@@ -40,7 +41,6 @@
   font-weight: 400;
 }
 
-/* Hero Image Section */
 .pd-hero-image {
   height: 400px;
   position: relative;
@@ -60,7 +60,9 @@
   min-height: 500px;
 }
 
-/* Value Proposition */
+/* ----------------------
+Value Proposition 
+-------------------------*/
 .pd-value-prop {
   background: #35363a;
   color: white;
@@ -107,6 +109,7 @@
 
 .pd-association-list {
   list-style: none;
+  padding-left: 10px;
 }
 
 .pd-association-list li {
@@ -124,22 +127,21 @@
   font-size: 1.5rem;
   position: absolute;
   left: 0;
-  top: -2px;
+  top: -7px;
 }
 
 /*------------------------
 Features Section
 --------------------------- */
 .pd-features-section {
-  /* padding: 50px 0; */
   color: var(--dark-header-text);
 }
 
 .pd-features-section h2 {
   text-align: center;
-  font-size: 2.3rem;
+  font-size: 3rem;
   line-height: 1.5;
-  font-weight: 600;
+  font-weight: 500;
   width: 700px;
   padding: 20px;
   color: var(--dark-header-text);
@@ -155,12 +157,10 @@ Features Section
 }
 
 .pd-feature-card {
-  /* background: rgba(255, 255, 255, 0.1); */
   padding: 20px 30px;
   border-radius: 5px;
   text-align: center;
   backdrop-filter: blur(10px);
-  /* border: 1px solid #35363a; */
   transition: all 0.3s ease;
   box-shadow: 0 4px 10px rgba(44, 62, 80, 0.12);
 }
@@ -197,7 +197,7 @@ Features Section
   font-size: 1rem;
   opacity: 0.9;
   line-height: 1.6;
-   text-align: center;
+  text-align: center;
 }
 
 .pd-icon-red {
@@ -306,7 +306,6 @@ Intern Section
   font-size: 1.1rem;
   font-weight: 600;
   transition: all 0.3s ease;
-  /* box-shadow: 0 5px 15px rgba(231, 76, 60, 0.4); */
   margin-top: 2rem;
 }
 
@@ -317,20 +316,36 @@ Intern Section
 
 /* Responsive Design */
 @media (max-width: 768px) {
-
   .pd-stats-section {
-  margin: 0;
-}
+    margin: 0;
+  }
+
+  .pd-container {
+    max-width: 1000px;
+    margin: 1rem auto;
+  }
+
+  .pd-content {
+    padding: 30px;
+    text-align: start;
+  }
+  .pd-content p {
+    text-align: start;
+  }
+  .pd-features-grid {
+    padding: 20px;
+  }
+
   .pd-header h1 {
-    font-size: 2.5rem;
+    font-size: 2.7rem;
   }
 
   .pd-features-section h2 {
-    font-size: 1.5rem;
+    font-size: 2rem;
     text-align: center;
+    font-weight: 500;
     width: 100%;
   }
-
 
   .pd-intern-title {
     font-size: 1.6rem;
@@ -344,13 +359,12 @@ Intern Section
   .pd-intern-description {
     font-size: 14px;
     width: 80%;
-
   }
 
   .pd-intern-title::before {
-  left: 5%;
-  top: 5%;
-}
+    left: 5%;
+    top: 5%;
+  }
 
   .pd-header p {
     font-size: 1.1rem;

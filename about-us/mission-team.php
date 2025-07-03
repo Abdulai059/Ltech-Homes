@@ -9,23 +9,26 @@
 <link rel="stylesheet" href="/assets/css/navbar.css">
 <link rel="stylesheet" href="/assets/css/about-us.css">
 <link rel="stylesheet" href="/assets/css/team.css">
-<main class="main-wrapper">
+<main>
     <!-- MISSION AND VISION SECTION -->
     <section class="mission-section">
         <!-- Main Header -->
-        <header class="m-header">
-            <h1 class="m-header-title"> Our Purpose and Vision</h1>
+        <header class="m-header" data-aos="fade-up"
+            data-aos-delay="120">
+            <h1 class=" m-header-title"> Our <span>Purpose and Vision</span></h1>
         </header>
 
         <!-- Mission Section -->
         <div class="mission">
             <div class="mission-content">
-                <div class="mission-image">
+                <div class="mission-image" data-aos="zoom-in"
+                    data-aos-delay="120">
                     <img
                         src="https://res.cloudinary.com/ltect-homes/image/upload/v1750055517/photo-1490197415175-074fd86b1fcc_f1gyfh.avif"
                         alt="Mission statement visual representing company goals and values" />
                 </div>
-                <div class="mission-text">
+                <div class="mission-text" data-aos="fade-left"
+                    data-aos-delay="120">
                     <h2 class="mission-title">Our Mission</h2>
                     <div class="vision-statement">
                         To transform the dream of homeownership into reality for Ghanaians
@@ -42,12 +45,14 @@
         <!-- Vision Section -->
         <div class="vision">
             <div class="vision-content">
-                <div class="vision-image">
+                <div class="vision-image" data-aos="zoom-in"
+                    data-aos-delay="120">
                     <img
                         src="https://res.cloudinary.com/ltect-homes/image/upload/v1750056145/photo-1460317442991-0ec209397118_iqoskc.avif"
                         alt="Mission statement visual representing company goals and values" />
                 </div>
-                <div class="vision-text">
+                <div class="vision-text" data-aos="fade-right"
+                    data-aos-delay="120">
                     <h2 class="vision-title">Our Vision</h2>
                     <p class="vision-statement">
                         To become Ghana's most trusted and innovative real estate company,
@@ -67,7 +72,8 @@
         </div>
 
         <!-- Intern Section -->
-        <div class="intern">
+        <div class="intern" data-aos="fade-up"
+            data-aos-delay="120">
             <h2 class="intern-title">Building Dreams, Shaping Communities</h2>
             <p class="intern-description">
                 We create modern, affordable homes that elevate lives and contribute to vibrant, sustainable communities across Ghana.

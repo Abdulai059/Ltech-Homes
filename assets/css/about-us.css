@@ -15,7 +15,8 @@ COMPANY OVERVIEW SECTION
 .main-wrapper {
   padding-top: 110px;
 }
-.container {
+
+.ltech-over-ontainer {
   max-width: 1000px;
   margin: 0 auto;
   color: var(--text-color);
@@ -37,10 +38,10 @@ COMPANY OVERVIEW SECTION
 }
 
 .purpose-tittle {
-  font-size: 49px;
+  font-size: 3.5rem;
   font-weight: 500;
   margin-top: 3rem;
-  padding: 0 1rem 3rem;
+  padding: 0.5rem 1rem 4rem;
 }
 
 .purpose-right {
@@ -190,12 +191,16 @@ SSECOND SECTION - OUR APPROACH
 
 /* Responsive Design */
 @media (max-width: 768px) {
+  .main-wrapper {
+    padding-top: 60px;
+  }
   .purpose-section {
     flex-direction: column;
   }
 
   .purpose-tittle {
-    font-size: 2rem;
+    font-size: 2.5rem;
+    text-align: center;
   }
 
   .purpose-left,
@@ -448,197 +453,4 @@ OUR TIMELINE EXPANSION SECTION
   }
 }
 
-/* ===========================================
-MISSION, VISSION AND TEAM STYLING
-============================================== */
 
-/*-------------------------
-MISSION AND VISION SECTION 
--------------------------*/
-.mission-section {
-  max-width: 1000px;
-  margin: 0 auto;
-  padding: 20px;
-}
-
-.m-header {
-  text-align: center;
-  padding-top: 2rem;
-}
-
-.m-header-title {
-  font-size: 52px;
-  font-weight: 450;
-  color: var(--dark-header-text);
-  margin-top: 9rem;
-}
-
-/* Mission Section */
-.mission {
-  margin-bottom: 5rem;
-  overflow: hidden;
-}
-
-.mission-content {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 0;
-  align-items: center;
-}
-
-.mission-image {
-  position: relative;
-  height: 400px;
-  overflow: hidden;
-}
-
-.mission-image img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.mission-text {
-  padding: 40px;
-}
-
-.mission-title {
-  font-size: 2.5rem;
-  color: var(--primary-color);
-  margin-bottom: 20px;
-  line-height: 1.2;
-}
-
-/* Vision Section */
-.vision {
-  margin-bottom: 40px;
-  overflow: hidden;
-}
-
-.vision-content {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 0;
-  align-items: center;
-}
-
-.vision-text {
-  padding: 40px 40px 40px 10px;
-  order: -1;
-}
-
-.vision-title {
-  font-size: 2.5rem;
-  color: #dc3545;
-  font-weight: 550;
-  margin-bottom: 20px;
-  line-height: 1.2;
-}
-
-.vision-statement {
-  font-size: 14.7px;
-  line-height: 1.7;
-  margin-bottom: 30px;
-  color: var(--text-color);
-  text-align: justify;
-}
-
-/* .vision-commitment {
-        font-size: 1.1rem;
-        font-weight: 600;
-        color: #2c3e50;
-      } */
-
-.vision-image {
-  position: relative;
-  height: 400px;
-  overflow: hidden;
-}
-
-/* ---------------------
-Intern Section 
--------------------------*/
-.intern {
-  padding: 50px 0;
-}
-
-.intern-title {
-  font-size: 1.9rem;
-  color: var(--dark-header-text);
-  font-weight: 450;
-  margin-bottom: 15px;
-  position: relative;
-  padding-left: 25px;
-}
-
-.intern-title::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 4px;
-  height: 40px;
-  background-color: var(--primary-color);
-}
-
-.intern-description {
-  font-size: 14.7px;
-  line-height: 1.7;
-  color: var(--secondary-color);
-  /* margin-bottom: 12px; */
-  padding-left: 25px;
-  text-align: justify;
-}
-
-/* Responsive Design */
-@media (max-width: 768px) {
-  .header-title {
-    font-size: 2rem;
-  }
-
-  .mission-content,
-  .vision-content {
-    grid-template-columns: 1fr;
-  }
-
-  .mission-image,
-  .vision-image {
-    height: 250px;
-  }
-
-  .mission-text,
-  .vision-text {
-    padding: 30px 20px;
-    order: 2;
-  }
-
-  .vision-text {
-    order: 2;
-  }
-
-  .mission-title,
-  .vision-title,
-  .intern-title {
-    font-size: 1.8rem;
-  }
-
-  .intern {
-    padding: 30px 20px;
-  }
-}
-
-@media (max-width: 480px) {
-  .container {
-    padding: 10px;
-  }
-
-  .header-title {
-    font-size: 1.5rem;
-  }
-
-  .mission-title,
-  .vision-title,
-  .intern-title {
-    font-size: 1.5rem;
-  }
-}
