@@ -35,6 +35,7 @@
   <link rel="stylesheet" href="/assets/css/property-management.css">
   <link rel="stylesheet" href="/assets/css/carrer.css">
   <link rel="stylesheet" href="/assets/css/portfolio.css">
+  <link rel="stylesheet" href="/assets/css/testimonial.css">
 
 
   <!-- GOOGLE FONTS -->

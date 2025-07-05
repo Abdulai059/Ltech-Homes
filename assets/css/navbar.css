@@ -450,7 +450,7 @@
 /* Mobile Portrait (up to 575px) */
 @media (max-width: 575px) {
   .nav-container {
-    padding: 3px 15px;
+    padding: 2px 15px;
   }
 
   .nav-menu {
