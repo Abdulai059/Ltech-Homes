@@ -14,7 +14,7 @@
       data-aos-delay="120">Our Group Overview</h2>
     <!-- Purpose and Why Choose Section -->
     <div class="purpose-section">
-      <div class="purpose-left" data-aos="fade-left"
+      <div class="purpose-left" data-aos="fade-right"
         data-aos-delay="120">
         <h2 class="section-title">Our Mission</h2>
         <p class="purpose-text">
@@ -43,7 +43,7 @@
         </div>
       </div>
 
-      <div class="purpose-right" data-aos="fade-right"
+      <div class="purpose-right" data-aos="fade-left"
         data-aos-delay="120">
         <h2 class="purpose-title">Why Ltech Homes?</h2>
 
@@ -161,7 +161,8 @@
       <p>Four decades of continued growth.</p>
     </div>
 
-    <div class="slider-container">
+    <div class="slider-container" data-aos="zoom-in"
+      data-aos-delay="120">
       <div class="slider-track" id="sliderTrack" aria-live="polite">
         <!-- Desktop Slides (3 slides with 2 years each) -->
         <!-- Slide 1: 2019-2020 -->

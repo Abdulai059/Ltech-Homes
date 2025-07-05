@@ -125,10 +125,14 @@
   left: 0;
   top: -7px;
 }
+.fm-tag {
+  color: var(--primary-color);
+}
 
 @media (max-width: 768px) {
   .fm-content {
-    padding-top: 0;
+    padding: 30px;
+    /* text-align: start; */
   }
 
   .fm-container {
@@ -147,20 +151,25 @@
 
   #furetures-title {
     text-align: center;
-    font-size: 2.6rem;
+    font-size: 2.5rem;
     font-weight: 500;
     padding-top: 2rem;
   }
 
+  .fm-header {
+    padding: 80px 0 0px;
+  }
+
   .fm-header h1 {
-    font-size: 2.7rem;
-    padding: 30px 0 0 30px;
+    font-size: 2.5rem;
+    padding: 30px 30px 0 6px;
     text-align: start;
-    margin: 10px;
+    margin-bottom: 2px;
   }
 
   .fm-header p {
-    padding-left: 10px;
+    padding: 3px 0px;
+    text-align: start;
   }
 }
 
@@ -268,10 +277,9 @@
   text-align: center;
   font-size: 3.5rem;
   margin-bottom: 60px;
-  font-weight: 550;
-  line-height: -1px;
+  font-weight: 500;
   padding-top: 30px;
-  color: var(--text-color);
+  color: #2c3e50;
 }
 
 .features-grid {
@@ -350,10 +358,10 @@
 
 .process-section h2 {
   text-align: center;
-  font-size: 2.8rem;
+  font-size: 3.5rem;
   color: #2c3e50;
-  margin-bottom: 60px;
-  font-weight: 600;
+  margin-bottom: 85px;
+  font-weight: 500;
 }
 
 .process-timeline {
@@ -415,6 +423,7 @@
     text-align: center;
     font-size: 2.7rem;
     font-weight: 500;
+    margin-bottom: 65px;
   }
   .header h1 {
     font-size: 2.8rem;

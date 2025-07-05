@@ -74,8 +74,8 @@
         <!-- Intern Section -->
         <div class="intern" data-aos="fade-up"
             data-aos-delay="120">
-            <h2 class="intern-title">Building Dreams, Shaping Communities</h2>
-            <p class="intern-description">
+            <h2 class="m-intern-title">Building Dreams, Shaping Communities</h2>
+            <p class="m-intern-description">
                 We create modern, affordable homes that elevate lives and contribute to vibrant, sustainable communities across Ghana.
             </p>
         </div>

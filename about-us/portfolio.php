@@ -17,7 +17,7 @@
                         <div class="add-icon">+</div>
                     </div>
                     <div class="project-info">
-                        <div class="project-location">Lakowe, Golf Course</div>
+                        <div class="project-location">East Legon, Accra</div>
                         <div class="project-name">Prime Oikos Estate</div>
                     </div>
                 </div>
@@ -29,7 +29,7 @@
                         <div class="add-icon">+</div>
                     </div>
                     <div class="project-info">
-                        <div class="project-location">Ibeju Lekki</div>
+                        <div class="project-location">Cantonments, Accra</div>
                         <div class="project-name">Annapolis Court</div>
                     </div>
                 </div>
@@ -41,7 +41,7 @@
                         <div class="add-icon">+</div>
                     </div>
                     <div class="project-info">
-                        <div class="project-location">Lekki</div>
+                        <div class="project-location">Airport Residential, Accra</div>
                         <div class="project-name">Idera Residential Scheme</div>
                     </div>
                 </div>
@@ -53,7 +53,7 @@
                         <div class="add-icon">+</div>
                     </div>
                     <div class="project-info">
-                        <div class="project-location">Victoria Island</div>
+                        <div class="project-location">Ridge, Accra</div>
                         <div class="project-name">Golden Heights Towers</div>
                     </div>
                 </div>
@@ -65,7 +65,7 @@
                         <div class="add-icon">+</div>
                     </div>
                     <div class="project-info">
-                        <div class="project-location">Ajah</div>
+                        <div class="project-location">Spintex, Accra</div>
                         <div class="project-name">Emerald Gardens</div>
                     </div>
                 </div>
@@ -77,7 +77,7 @@
                         <div class="add-icon">+</div>
                     </div>
                     <div class="project-info">
-                        <div class="project-location">Banana Island</div>
+                        <div class="project-location">Labone, Accra</div>
                         <div class="project-name">Royal Terraces</div>
                     </div>
                 </div>
@@ -92,6 +92,3 @@
         <div class="swiper-pagination"></div>
     </div>
 </div>
-
-
-

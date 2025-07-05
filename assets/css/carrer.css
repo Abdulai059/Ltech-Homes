@@ -126,7 +126,7 @@
   transform: translateY(0);
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .job-container {
     padding: 20px 20px;
   }
@@ -163,5 +163,13 @@
   .apply-btn {
     font-size: 0.9rem;
     padding: 6px 20px;
+  }
+}
+
+@media (max-width: 399px) {
+  .work-type,
+  .apply-btn {
+    font-size: 0.9rem;
+    padding: 4px 15px;
   }
 }

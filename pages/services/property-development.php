@@ -63,7 +63,7 @@
         </h2>
         <div class="pd-features-grid">
           <div class="pd-feature-card" data-aos="zoom-in"
-            data-aos-delay="120">
+            data-aos-delay="125">
             <span class="pd-feature-icon pd-icon-red"><i class="bi bi-buildings"></i></span>
             <h4>Quality Construction</h4>
             <p>
@@ -72,7 +72,8 @@
               durability.
             </p>
           </div>
-          <div class="pd-feature-card">
+          <div class="pd-feature-card" data-aos="zoom-in"
+            data-aos-delay="130">
             <span class="pd-feature-icon pd-icon-indigo"><i class="bi bi-tree"></i></span>
             <h4>Sustainable Design</h4>
             <p>
@@ -80,7 +81,8 @@
               sustainable building practices for environmental responsibility.
             </p>
           </div>
-          <div class="pd-feature-card">
+          <div class="pd-feature-card" data-aos="zoom-in"
+            data-aos-delay="135">
             <span class="pd-feature-icon pd-icon-teal"><i class="bi bi-geo-fill"></i></span>
             <h4>Prime Locations</h4>
             <p>
@@ -88,7 +90,8 @@
               amenities, and strong appreciation potential.
             </p>
           </div>
-          <div class="pd-feature-card">
+          <div class="pd-feature-card" data-aos="zoom-in"
+            data-aos-delay="140">
             <span class="pd-feature-icon pd-icon-gold"><i class="bi bi-gem"></i></span>
             <h4>Modern Amenities</h4>
             <p>
@@ -96,7 +99,8 @@
               enhance lifestyle and property value.
             </p>
           </div>
-          <div class="pd-feature-card">
+          <div class="pd-feature-card" data-aos="zoom-in"
+            data-aos-delay="145">
             <span class="pd-feature-icon pd-icon-gray"><i class="bi bi-person-heart"></i></span>
             <h4>Client-Focused</h4>
             <p>
@@ -104,7 +108,8 @@
               throughout the development process.
             </p>
           </div>
-          <div class="pd-feature-card">
+          <div class="pd-feature-card" data-aos="zoom-in"
+            data-aos-delay="145">
             <span class="pd-feature-icon pd-icon-blue"><i class="bi bi-lightning-fill"></i></span>
             <h4>Timely Delivery</h4>
             <p>

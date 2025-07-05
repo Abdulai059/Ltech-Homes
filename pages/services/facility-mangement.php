@@ -78,7 +78,7 @@
     <section class="features-section">
       <div class="feature-container">
         <h2 id="furetures-title" data-aos="fade-up"
-          data-aos-delay="120">Why Choose Our Services</h2>
+          data-aos-delay="120"><span class="fm-tag">Why </span>Choose Our Services</h2>
         <div class="features-grid">
           <div class="feature-column" data-aos="zoom-in"
             data-aos-delay="120">
@@ -124,7 +124,7 @@
     <section class="process-section">
       <div class="container">
         <h2 data-aos="fade-up"
-          data-aos-delay="120">Our Management Process</h2>
+          data-aos-delay="120"><span class="fm-tag">Our </span>Management Process</h2>
         <div class="process-timeline">
           <div class="process-step" data-aos="zoom-in"
             data-aos-delay="125">

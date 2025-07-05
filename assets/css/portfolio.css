@@ -103,10 +103,10 @@
   transition: left 0.5s ease;
 }
 
-.view-all-btn:hover {
+/* .view-all-btn:hover {
   transform: translateY(-2px);
   box-shadow: 0 8px 25px rgba(230, 184, 0, 0.4);
-}
+} */
 
 .view-all-btn:hover::before {
   left: 100%;
@@ -208,13 +208,13 @@
   color: white;
   font-size: 20px;
   font-weight: bold;
-  box-shadow: 0 4px 15px rgba(230, 184, 0, 0.3);
+  box-shadow: 0 4px 15px rgba(255, 0, 0, 0.5);
   transition: all 0.3s ease;
 }
 
 .add-icon:hover {
   transform: scale(1.1);
-  box-shadow: 0 6px 20px rgba(230, 184, 0, 0.4);
+  /* box-shadow: 0 6px 20px rgba(230, 184, 0, 0.4); */
 }
 
 .project-info {

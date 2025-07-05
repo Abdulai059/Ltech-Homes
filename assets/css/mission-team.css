@@ -88,7 +88,7 @@ MISSION AND VISION SECTION
 .vision-title {
   font-size: 2.5rem;
   color: #dc3545;
-  font-weight: 550;
+  font-weight: 500;
   margin-bottom: 20px;
   line-height: 1.2;
 }
@@ -116,7 +116,7 @@ MISSION AND VISION SECTION
   padding: 50px 0;
 }
 
-.intern-title {
+.m-intern-title {
   font-size: 1.9rem;
   color: var(--dark-header-text);
   font-weight: 450;
@@ -125,7 +125,7 @@ MISSION AND VISION SECTION
   padding-left: 25px;
 }
 
-.intern-title::before {
+.m-intern-title::before {
   content: "";
   position: absolute;
   left: 0;
@@ -135,10 +135,10 @@ MISSION AND VISION SECTION
   background-color: var(--primary-color);
 }
 
-.intern-description {
+.m-intern-description {
   font-size: 14.7px;
   line-height: 1.7;
-  color: var(--secondary-color);
+  color: var(--text-color);
   /* margin-bottom: 12px; */
   padding-left: 25px;
   text-align: justify;
@@ -162,10 +162,11 @@ MISSION AND VISION SECTION
     font-weight: 500;
     padding: 30px;
     text-align: center;
+    margin-top: 6rem;
   }
 
   .mission-section{
-   margin: 0;
+   padding: 20px;
   }
   .mission-content,
   .vision-content {
@@ -175,6 +176,7 @@ MISSION AND VISION SECTION
   .mission-image,
   .vision-image {
     height: 250px;
+    border-radius: 8px;
   }
 
   .mission-text,
@@ -195,6 +197,14 @@ MISSION AND VISION SECTION
 
   .intern {
     padding: 30px 20px;
+  }
+
+  .m-intern-title {
+    font-size: 1.4rem;
+  }
+  .m-intern-description {
+    font-size: 14.7px;
+    text-align: left;
   }
 }
 
