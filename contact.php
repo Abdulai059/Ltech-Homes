@@ -3,36 +3,31 @@
 
 <main class="main-wrapper">
 
-   <div class="contact-wrapper">
-      <!-- ======================= 
-           MAP SECTION 
-           ======================= -->
-      <div class="contact-us-section">
-        <h2 class="maps-title">Contact Us</h2>
+  <div class="contact-wrapper">
 
-        <div class="maps-frame">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.500313186382!2d-0.8237734396386878!3d9.3944317473021!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfd43d3f42a4db27%3A0xc882f51368f260d4!2sHackerBoost%20Developer%20Hub%2C%20Tamale!5e0!3m2!1sen!2sgh!4v1750387299407!5m2!1sen!2sgh"
-            width="100%"
-            height="600"
-            style="border: 0"
-            allowfullscreen=""
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-            class="map"
-          ></iframe>
-          <p class="maps-description">
-            Find your nearest Ltech Home's office address and contact details
-            below or fill out the Enquiry Form.
-          </p>
-        </div>
+    <!-- MAP SECTION  -->
+    <div class="contact-us-section">
+      <h2 class="maps-title">Contact Us</h2>
+
+      <div class="maps-frame">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.500313186382!2d-0.8237734396386878!3d9.3944317473021!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfd43d3f42a4db27%3A0xc882f51368f260d4!2sHackerBoost%20Developer%20Hub%2C%20Tamale!5e0!3m2!1sen!2sgh!4v1750387299407!5m2!1sen!2sgh"
+          width="100%"
+          height="600"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          class="map"></iframe>
+        <p class="maps-description">
+          Find your nearest Ltech Home's office address and contact details
+          below or fill out the Enquiry Form.
+        </p>
       </div>
+    </div>
 
-      <!-- ======================= 
-           FORM SECTION 
-           ======================= -->
- 
- <div class="contact-form-container">
+    <!-- FORM SECTION  -->
+    <div class="contact-form-container">
       <h1 class="contact-form-title">Enquiry Form</h1>
 
       <form id="contact-enquiryForm">
@@ -108,55 +103,49 @@
     </div>
 
 
+    <!-- CONTACT DETAILS SECTION -->
 
+    <div class="contact-us-section">
+      <div class="contact-section">
+        <h2 class="details-title">Contact Details</h2>
 
+        <div class="office-list-container">
+          <ul class="office-list">
+            <li class="office-item active" data-office="ghana">Ghana</li>
+            <li class="office-item" data-office="south-africa">Accra</li>
+            <li class="office-item" data-office="botswana">Kumasi</li>
+            <li class="office-item" data-office="mauritius">Tamale</li>
+          </ul>
+        </div>
 
-      <!-- ======================= 
-           CONTACT DETAILS SECTION 
-           ======================= -->
-      <div class="contact-us-section">
-        <div class="contact-section">
-          <h2 class="details-title">Contact Details</h2>
-
-          <div class="office-list-container">
-            <ul class="office-list">
-              <li class="office-item active" data-office="ghana">Ghana</li>
-              <li class="office-item" data-office="south-africa">Accra</li>
-              <li class="office-item" data-office="botswana">Kumasi</li>
-              <li class="office-item" data-office="mauritius">Tamale</li>
-            </ul>
+        <div class="office-details" id="office-details">
+          <div class="office-name">Ghana</div>
+          <div class="office-subtitle">Ltech Homes Office</div>
+          <div class="office-address">
+            7th Floor<br />
+            Ridge Tower<br />
+            6th Avenue<br />
+            Ridge<br />
+            Accra
           </div>
-
-          <div class="office-details" id="office-details">
-            <div class="office-name">Ghana</div>
-            <div class="office-subtitle">Ltech Homes Office</div>
-            <div class="office-address">
-              7th Floor<br />
-              Ridge Tower<br />
-              6th Avenue<br />
-              Ridge<br />
-              Accra
+          <div class="contact-info">
+            <div class="contact-row">
+              <span class="contact-label">Tel</span>
+              <span class="contact-value">+233 (0) 302 672 888</span>
             </div>
-            <div class="contact-info">
-              <div class="contact-row">
-                <span class="contact-label">Tel</span>
-                <span class="contact-value">+233 (0) 302 672 888</span>
-              </div>
-              <div class="contact-row">
-                <span class="contact-label">Email</span>
-                <span class="contact-value">ghana@ltech.com</span>
-              </div>
-              <div class="contact-row">
-                <span class="contact-label">Website</span>
-                <a href="#" class="contact-value website" target="_blank"
-                  >ltechhomes.com</a
-                >
-              </div>
+            <div class="contact-row">
+              <span class="contact-label">Email</span>
+              <span class="contact-value">ghana@ltech.com</span>
+            </div>
+            <div class="contact-row">
+              <span class="contact-label">Website</span>
+              <a href="#" class="contact-value website" target="_blank">ltechhomes.com</a>
             </div>
           </div>
         </div>
       </div>
     </div>
+  </div>
 
 
 </main>

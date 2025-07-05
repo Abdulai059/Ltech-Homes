@@ -86,9 +86,9 @@ Table of content:
 }
 
 .wcd-description {
-  color: var(--text-color-light);
-  font-size: 1.02rem;
-  line-height: 1.8;
+  color: #6c757d;
+  font-size: 1.01rem;
+  line-height: 1.6;
   margin-bottom: 35px;
   max-width: 100%;
   text-align: left;

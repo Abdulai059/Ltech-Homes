@@ -129,6 +129,13 @@
     <?php include 'pages/why-choose-us.php'; ?>
   </div>
 
+  <!-- START PORFOLIO SECTION-->
+  <section class="portfolio-section">
+    <?php include 'about-us/portfolio.php'; ?>
+  </section>
+
+
+
   <!-- START FAQ SECTION -->
   <section class="faq-section">
     <div class="faq-wrapper">
@@ -219,6 +226,8 @@
     <?php include 'about-us/our-team.php'; ?>
   </section>
 
+
+  <!-- START CARRER SECTION -->
   <section id="carrer-section">
     <div class="job-container">
       <div class="job-header" data-aos="fade-up"

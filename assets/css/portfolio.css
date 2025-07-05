@@ -1,0 +1,348 @@
+:root {
+    --primary-color: #d32f2f;
+    --secondary-color: #666;
+    --bg-color: #fff;
+    --light-bg: #f8f9fa;
+    --text-color: #333;
+    --light-text: #7f8c8d;
+    --defaut-light-text: #6c757d;
+    --dark-header-text: #2c3e50;
+  }
+
+.portfolio-section {
+  font-family: "Arial", sans-serif;
+  margin-top: 0.5rem;
+  padding: 40px 20px;
+}
+
+.port-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  background: transparent;
+  border: none;
+}
+
+.port-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 20px 60px;
+}
+
+.title-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.project-label {
+  font-size: 14px;
+  font-weight: 600;
+  /* color: #e6b800; */
+  color: var(--primary-color);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  position: relative;
+}
+
+.project-label::after {
+  content: "";
+  position: absolute;
+  right: -80px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 60px;
+  height: 3px;
+  background: #d32f2f;
+  /* background: linear-gradient(90deg, #e6b800, #ffd700); */
+  border-radius: 2px;
+}
+
+.main-title {
+  font-size: 3.5rem;
+  font-weight: 800;
+  color: #2c3e50;
+  background: linear-gradient(135deg, #2c3e50, #34495e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.view-all-btn {
+  /* background: linear-gradient(135deg, #e6b800, #ffd700); */
+  background-color: #d32f2f;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(255, 38, 38, 0.3);
+  /* box-shadow: 0 4px 15px rgba(230, 184, 0, 0.3); */
+  position: relative;
+  overflow: hidden;
+}
+
+.view-all-btn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.3),
+    transparent
+  );
+  transition: left 0.5s ease;
+}
+
+.view-all-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(230, 184, 0, 0.4);
+}
+
+.view-all-btn:hover::before {
+  left: 100%;
+}
+
+/* Unique portfolio swiper selectors */
+.portfolio-swiper {
+  margin-top: 40px;
+  padding-bottom: 50px;
+  overflow: hidden;
+}
+
+.portfolio-swiper .swiper-slide {
+  width: 370px;
+  height: 480px;
+  flex-shrink: 0;
+  transition: transform 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+
+.portfolio-swiper .swiper-wrapper {
+  display: flex;
+  align-items: stretch;
+  padding: 10px 0;
+}
+
+.project-card {
+  border-radius: 10px;
+  overflow: hidden;
+  transition: all 0.4s ease;
+  position: relative;
+  cursor: pointer;
+  height: 100%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+}
+
+.project-image {
+  width: 100%;
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.project-image::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+    45deg,
+    rgba(44, 62, 80, 0.3),
+    rgba(52, 73, 94, 0.1)
+  );
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.project-card:hover .project-image::before {
+  opacity: 1;
+}
+
+.project-1 {
+  background-image: url("https://res.cloudinary.com/ltect-homes/image/upload/v1751654661/project_1_5_di4xqz.jpg");
+}
+.project-2 {
+  background-image: url("https://res.cloudinary.com/ltect-homes/image/upload/v1751654661/project_1_5_di4xqz.jpg");
+}
+.project-3 {
+  background-image: url("https://res.cloudinary.com/ltect-homes/image/upload/v1751654661/project_1_5_di4xqz.jpg");
+}
+.project-4 {
+  background-image: url("https://res.cloudinary.com/ltect-homes/image/upload/v1751654661/project_1_5_di4xqz.jpg");
+}
+.project-5 {
+  background-image: url("https://res.cloudinary.com/ltect-homes/image/upload/v1751654661/project_1_5_di4xqz.jpg");
+}
+.project-6 {
+  background-image: url("https://res.cloudinary.com/ltect-homes/image/upload/v1751654661/project_1_5_di4xqz.jpg");
+}
+
+.add-icon {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  width: 40px;
+  height: 40px;
+  background: var(--primary-color);
+  /* background: linear-gradient(135deg, #e6b800, #ffd700); */
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  box-shadow: 0 4px 15px rgba(230, 184, 0, 0.3);
+  transition: all 0.3s ease;
+}
+
+.add-icon:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 20px rgba(230, 184, 0, 0.4);
+}
+
+.project-info {
+  padding: 25px;
+  overflow: hidden;
+  background: linear-gradient(135deg, #ffffff, #f8f9fa);
+}
+
+.project-location {
+  color: #7f8c8d;
+  font-size: 12px;
+  margin-bottom: 6px;
+  font-weight: 500;
+}
+
+.project-name {
+  font-size: 18px;
+  font-weight: 700;
+  color: #2c3e50;
+  margin-bottom: 15px;
+  background: linear-gradient(135deg, #2c3e50, #34495e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Swiper customization with unique parent selector */
+.portfolio-swiper .swiper-pagination {
+  position: static !important;
+  margin-top: 30px;
+}
+
+.portfolio-swiper .swiper-pagination-bullet {
+  width: 7px;
+  height: 7px;
+  /* background: #e6b800; */
+  background: var(--primary-color);
+  opacity: 0.3;
+  transition: all 0.3s ease;
+}
+
+.portfolio-swiper .swiper-pagination-bullet-active {
+  opacity: 1;
+  transform: scale(1.2);
+}
+
+/* .portfolio-swiper .swiper-button-next,
+.portfolio-swiper .swiper-button-prev {
+  color: #e6b800;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin-top: -20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+} */
+
+.portfolio-swiper .swiper-button-next,
+  .portfolio-swiper .swiper-button-prev {
+    display: none;
+  }
+
+
+.portfolio-swiper .swiper-button-next:hover,
+.portfolio-swiper .swiper-button-prev:hover {
+  background: rgba(255, 255, 255, 1);
+  transform: scale(1.1);
+}
+
+.portfolio-swiper .swiper-button-next::after,
+.portfolio-swiper .swiper-button-prev::after {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .port-header {
+    flex-direction: column;
+    gap: 30px;
+    text-align: start;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 0 5px;
+  }
+
+  .main-title {
+    font-size: 2rem;
+  }
+
+  .project-label::after {
+    content: "";
+  position: absolute;
+  right: -40px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 2px;
+  background: #d32f2f;
+  /* background: linear-gradient(90deg, #e6b800, #ffd700); */
+  border-radius: 2px;
+  }
+
+  .portfolio-swiper .swiper-button-next,
+  .portfolio-swiper .swiper-button-prev {
+    display: none;
+  }
+
+  .portfolio-swiper .swiper-slide {
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+    height: 450px;
+  }
+
+  .portfolio-swiper .swiper-slide-active {
+    transform: scale(1);
+  }
+
+  .project-image {
+    width: 100%;
+    height: 300px;
+  }
+
+  .portfolio-swiper .swiper-pagination {
+    position: static !important;
+    margin-top: 15px;
+  }
+
+  
+}

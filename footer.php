@@ -139,8 +139,9 @@
 <!-- Font Awesome JS -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
 
-<!-- Swiper JS -->
+<!-- Load Swiper JS -->
 <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
 
 <!-- Custom JS -->
 <script src="/assets/js/testimonial-card-animation.js"></script>
@@ -149,6 +150,9 @@
 <script src="/assets/js/team.js"></script>
 <script src="/assets/js/why-choose-us.js"></script>
 <script src="/assets/js/video-popup.js"></script>
+<script src="/assets/js/portfolio.js"></script>
+
+
 </body>
 
 </html>

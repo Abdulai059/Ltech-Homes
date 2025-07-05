@@ -22,10 +22,9 @@
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 
-  <!-- Swiper CSS -->
-  <link
-    rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+  <!-- Load your custom CSS -->
+
 
   <!--component css stylesheet-->
   <link rel="stylesheet" href="/assets/css/main.css">
@@ -35,6 +34,8 @@
   <link rel="stylesheet" href="/assets/css/mission-team.css">
   <link rel="stylesheet" href="/assets/css/property-management.css">
   <link rel="stylesheet" href="/assets/css/carrer.css">
+  <link rel="stylesheet" href="/assets/css/portfolio.css">
+
 
   <!-- GOOGLE FONTS -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -47,6 +48,10 @@
   <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+
+  <!-- Load Swiper CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+
 
   <!-- bootsrap Icons -->
   <link

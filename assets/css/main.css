@@ -616,7 +616,7 @@ HERO SECTION STYLING
     margin: 0;
     width: 100%;
     order: 1;
-    text-align: left !important;
+    text-align: center !important;
     padding-left: 0;
   }
 
@@ -634,6 +634,7 @@ HERO SECTION STYLING
   .purpose-slide {
     font-size: 1rem !important;
     font-style: normal !important;
+    text-align: center !important;
   }
 
   .hero-content {

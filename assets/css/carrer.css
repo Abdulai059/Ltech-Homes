@@ -144,10 +144,11 @@
   }
 
   .job-header p {
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
   .job-description {
     font-size: 0.95rem;
+    text-align: center;
   }
 
   .job-card {
