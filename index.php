@@ -130,10 +130,19 @@
   </div>
 
   <!-- START PORFOLIO SECTION-->
-  <section class="portfolio-section">
-    <?php include 'about-us/portfolio.php'; ?>
+  <?php include 'about-us/faqs.php'; ?>
+
+  <!-- START TESTIMONIAL SECTION -->
+  <?php include 'about-us/testimonial.php'; ?>
+
+
+  <!-- START SECTION TEAMS -->
+  <section class="team-section">
+    <?php include 'about-us/our-team.php'; ?>
   </section>
 
+  <!-- START OUR PARTNES SECTION -->
+  <?php include 'about-us/our-partners.php'; ?>
 
 
   <!-- START FAQ SECTION -->
@@ -221,12 +230,6 @@
     </div>
   </section>
 
-  <!-- START SECTION TEAMS -->
-  <section class="team-section">
-    <?php include 'about-us/our-team.php'; ?>
-  </section>
-
-
   <!-- START CARRER SECTION -->
   <section id="carrer-section">
     <div class="job-container">
@@ -246,25 +249,15 @@
         <div class="job-options">
           <span class="work-type on-site">On-Site</span>
           <span class="work-type part-time">Part-time</span>
-          <a href="#" class="apply-btn" onclick="handleApply()">Apply</a>
+          <a href="#" class="apply-btn" onclick="handleApply()">Apply <span>→</span></a>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- START TESTIMONIAL SECTION -->
-  <?php include 'about-us/testimonial.php'; ?>
 
-  <!-- START BRAND IMAGES SECTION -->
-  <!-- <section>
-    <div class="brand-wrapper">
-      <div class="brand">
-      <img src="./assets/images/Accra_banner_Independance_square.jpg" alt="">
-      <div class="overlay"><span class="overlay-text">Let's Talk</span></div>
-    </div>
-    </div>
-    
-  </section> -->
+
+
 </main>
 
 

@@ -19,7 +19,7 @@
     <section class="pd-hero-image">
       <div class="pd-hero-content" data-aos="zoom-in"
         data-aos-delay="120">
-        <img src="/assets/images/glow_slide3.jpeg" alt="" />
+        <img src="https://res.cloudinary.com/ltect-homes/image/upload/v1751731198/FILE-C-scaled-1_4_i2kuwc.jpg" alt="" />
       </div>
     </section>
 

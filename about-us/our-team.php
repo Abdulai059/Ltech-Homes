@@ -2,6 +2,11 @@
 <main class="main-wrapper">
     <div class="team-wrapper" id="team-members-section">
         <!-- <h1 class="about-title">OUR TEAM</h1> -->
+        <!-- <h2 class="team-title">OUR TEAM</h2> -->
+        <div class="team-title-wrapper" data-aos="fade-up">
+            <div class="team-section-tag">OUR <span>TEAM</span> MEMBERS</div>
+            <p class="team-title"> <span class="hide-on-mobile">Our team brings passion and expertise to every project.</span>Meet the people who make your vision a reality.</p>
+        </div>
 
         <div class="carousel-container">
             <button class="nav-arrow left">‹</button>

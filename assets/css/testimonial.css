@@ -1,6 +1,16 @@
 /* --------------------------
 START TESTIMONIAL SECTION 
 ----------------------------*/
+:root {
+  --primary-color: #d32f2f;
+  --secondary-color: #666;
+  --bg-color: #fff;
+  --light-bg: #f8f9fa;
+  --text-color: #333;
+  --light-text: #7f8c8d;
+  --defaut-light-text: #6c757d;
+  --dark-header-text: #2c3e50;
+}
 
 .testimonial-section {
   max-width: 1200px;
@@ -17,6 +27,15 @@ START TESTIMONIAL SECTION
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.test-heading {
+  font-size: 2.9rem;
+  color: var(--dark-header-text);
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
 }
 
 .card-title,
@@ -38,7 +57,7 @@ START TESTIMONIAL SECTION
   max-width: 350px;
   padding: 2rem;
   background-color: white;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 12px 3px rgba(0, 0, 0, 0.1);
 }
 
 .testimonial-img {
@@ -47,7 +66,7 @@ START TESTIMONIAL SECTION
   object-fit: cover;
   border-radius: 50%;
   border: 3px solid #fff;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
 }
 
 .card-text {
@@ -59,13 +78,7 @@ START TESTIMONIAL SECTION
 .swiper-button-prev {
   color: #999;
 }
-.testimonial-title h3 {
-  font-size: 2.8rem;
-  font-weight: 550;
-  margin-bottom: 1.5rem;
-  color: var(--dark-header-text);
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
-}
+
 .testimonial-title p {
   font-size: 1.2rem;
   color: #000;
@@ -90,11 +103,11 @@ START TESTIMONIAL SECTION
   color: var(--dark-header-text);
   width: 70%;
   margin: 0 auto;
-  padding-bottom: 1.5rem;
+  padding-bottom: 1rem;
 }
 
-.swiper-container{
-    padding: 0 0 0 4px;
+.swiper-container {
+  padding: 20px 0 20px 4px;
 }
 @media (max-width: 768px) {
   /* .swiper {
@@ -111,17 +124,19 @@ START TESTIMONIAL SECTION
 
   .swiper-container {
     align-items: center !important;
+    padding: 10px 0 10px 0px;
   }
 
   .test-swiper-slide {
     width: 100% !important;
     display: flex !important;
     justify-content: center !important;
-    transform: translate3d(0, 0, 0) !important; 
+    transform: translate3d(0, 0, 0) !important;
   }
 
   .testimonial-title {
     width: 90%;
+    padding-bottom: 0.2rem;
   }
 
   .card-text {
@@ -136,12 +151,16 @@ START TESTIMONIAL SECTION
   }
 
   .testimonial-section {
-    padding: 0rem!important; /* Reduced padding for mobile */
+    padding: 0rem !important; /* Reduced padding for mobile */
   }
-  
+
   .testimonial-container {
     padding: 0 !important;
     margin: 0 !important;
+  }
+
+  .test-heading {
+    color: var(--dark-header-text);
   }
 }
 

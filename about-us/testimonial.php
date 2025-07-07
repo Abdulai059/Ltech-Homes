@@ -5,7 +5,7 @@
               class="testimonial-title mb-5 aos-init"
               data-aos="fade-up"
               data-aos-delay="120">
-              <h3 class="text-muted" id="typing">
+              <h3 class="test-heading" id="typing">
                   We Have Helped Our Client Achieve Their
                   <span class="test-traget">Dreams!</span>
               </h3>
