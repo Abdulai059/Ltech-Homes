@@ -5,7 +5,7 @@ Ltech Homes is a modern and responsive real estate website built using **HTML**,
 This frontend project is ideal for presenting property listings, highlighting services, and connecting with potential clients in the real estate industry.
 
 
-🌐 Live Demo: [ltechhomes.vercel.app](https://ltechhomes.onrender.com/) 
+🌐 Live Demo: [ltech-homes.onrender.com](https://ltech-homes.onrender.com/) 
 
 ---
 
