@@ -11,7 +11,7 @@ This frontend project is ideal for presenting property listings, highlighting se
 
 ## 📸 Preview
 
-![Ltech Homes Screenshot](assest/images/hero.png)
+![Ltech Homes Screenshot](assets/images/hero.png)
 
 
 ---
