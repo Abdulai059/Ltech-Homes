@@ -37,6 +37,7 @@
   <link rel="stylesheet" href="/assets/css/portfolio.css">
   <link rel="stylesheet" href="/assets/css/testimonial.css">
   <link rel="stylesheet" href="/assets/css/our-partners.css">
+  <link rel="stylesheet" href="/assets/css/gallary.css">
 
 
   <!-- GOOGLE FONTS -->
@@ -65,7 +66,7 @@
 
   <nav class="navbar <?php echo basename($_SERVER['PHP_SELF']) === 'index.php' ? 'navbar-home' : 'scrolled'; ?>">
     <div class="nav-container">
-      <a href="#" class="logo">
+      <a href="/index.php" class="logo">
         <svg class="logo-icon" fill="currentColor" viewBox="0 0 24 24">
           <path d="M12 2L4 7v10l8 5 8-5V7L12 2zm0 2.5L18 9v6l-6 3.5-6-3.5V9l6-3.5z" />
         </svg>
@@ -102,7 +103,7 @@
           <a href="#" class="nav-link">Property Search</a>
         </li>
         <li class="nav-item">
-          <a href="#" class="nav-link">Gallery</a>
+          <a href="/pages/gallary.php" class="nav-link">Gallery</a>
         </li>
         <li class="nav-item">
           <a href="/contact.php" class="nav-link">Contact</a>

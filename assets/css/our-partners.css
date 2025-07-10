@@ -129,7 +129,11 @@
   .slider .slide {
     height: 100px;
     width: 250px;
-    transform: scale(1);
+    transform: scale(1.1);
+  }
+  .slider {
+    background: none;
+    box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.02);
   }
 
   .slider::before,

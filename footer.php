@@ -151,6 +151,7 @@
 <script src="/assets/js/why-choose-us.js"></script>
 <script src="/assets/js/video-popup.js"></script>
 <script src="/assets/js/portfolio.js"></script>
+<script src="/assets/js/gallary.js"></script>
 
 
 </body>
