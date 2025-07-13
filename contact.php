@@ -44,7 +44,7 @@
             <input
               type="tel"
               class="contact-form-input"
-              placeholder="Tel: 0302673516*"
+              placeholder="Tel: 0549337820 *"
               required />
           </div>
 
@@ -71,7 +71,7 @@
             <input
               type="email"
               class="contact-form-input"
-              placeholder="Email: laddae@brollghana.com*"
+              placeholder="Email: ltechhomes555@gmail.com*"
               required />
           </div>
 
@@ -131,11 +131,11 @@
           <div class="contact-info">
             <div class="contact-row">
               <span class="contact-label">Tel</span>
-              <span class="contact-value">+233 (0) 302 672 888</span>
+              <span class="contact-value"> 054 933 7820 <span class="contact-or">/</span> 0246 932 582</span>
             </div>
             <div class="contact-row">
               <span class="contact-label">Email</span>
-              <span class="contact-value">ghana@ltech.com</span>
+              <span class="contact-value">ltechhomes555@gmail.com</span>
             </div>
             <div class="contact-row">
               <span class="contact-label">Website</span>

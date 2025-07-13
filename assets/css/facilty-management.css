@@ -1,27 +1,21 @@
-:root {
-  --primary-color: #d32f2f;
-  --secondary-color: #666;
-  --bg-color: #fff;
-  --light-bg: #f8f9fa;
-  --text-color: #333;
-  --light-text: #7f8c8d;
-  --defaut-light-text: #6c757d;
-  --dark-header-text: #2c3e50;
-}
+/*----------------------
+ 1. Header Section 
+ -----------------------*/
+
+@import url('/assets/css/root.css');
+
 
 .fm-container {
   max-width: 1150px;
   margin: 6rem auto;
 }
-/*----------------------
- 1. Header Section 
- -----------------------*/
+
 .fm-content {
   padding-top: 2rem;
 }
 
 .fm-header {
-  background: var(--light-bg);
+  background: var(--bg-light);
   padding: 80px 0 60px;
   text-align: center;
 }
@@ -72,7 +66,7 @@
 
 .fm-value-prop h3 {
   font-size: 2.2rem;
-  color: var(--primary-color);
+  color: var(--color-primary);
   margin-bottom: 1px;
   font-weight: 600;
   position: relative;
@@ -89,7 +83,7 @@
 
 /* Professional Associations */
 .fm-associations {
-  background: var(--light-bg);
+  background: var(--bg-light);
   padding: 60px 50px;
   display: flex;
   flex-direction: column;
@@ -98,7 +92,7 @@
 
 .fm-associations h3 {
   font-size: 2rem;
-  color: var(--primary-color);
+  color: var(--color-primary);
   margin-bottom: 30px;
   font-weight: 600;
 }
@@ -119,14 +113,14 @@
 
 .fm-association-list li::before {
   content: "•";
-  color: var(--primary-color);
+  color: var(--color-primary);
   font-size: 1.5rem;
   position: absolute;
   left: 0;
   top: -7px;
 }
 .fm-tag {
-  color: var(--primary-color);
+  color: var(--color-primary);
 }
 
 @media (max-width: 768px) {
@@ -190,8 +184,8 @@
 
 /* Value Proposition */
 .co-value-prop {
-  background: var(--light-bg);
-  color: var(--text-color);
+  background: var(--bg-light);
+  color: var(--text-for-pages);
   padding: 60px 50px;
   display: flex;
   flex-direction: column;
@@ -202,7 +196,7 @@
 
 .co-value-prop h3 {
   font-size: 2.2rem;
-  color: var(--primary-color);
+  color: var(--color-primary);
   margin-bottom: 25px;
   font-weight: 600;
   position: relative;
@@ -210,7 +204,7 @@
 }
 
 .co-value-prop p {
-  font-size: 0.93rem;
+  font-size: 1rem;
   line-height: 1.7;
   position: relative;
   z-index: 2;
@@ -220,7 +214,7 @@
 /* Professional Associations */
 .co-associations {
   background: #35363a;
-  color: var(--light-bg);
+  color: var(--bg-light);
   padding: 60px 50px;
   display: flex;
   flex-direction: column;
@@ -229,7 +223,7 @@
 
 .co-associations h3 {
   font-size: 2rem;
-  color: var(--primary-color);
+  color: var(--color-primary);
   margin-bottom: 30px;
   font-weight: 600;
 }
@@ -240,7 +234,7 @@
 }
 
 .benefits-list li {
-  font-size: 1.1rem;
+  font-size: 1rem;
   margin-bottom: 15px;
   padding-left: 30px;
   position: relative;
@@ -270,7 +264,7 @@
 
 .features-section {
   padding: 0px 0;
-  color: var(--bg-color);
+  color: var(--bg-default);
 }
 
 .features-section h2 {
@@ -359,7 +353,7 @@
 .process-section h2 {
   text-align: center;
   font-size: 3.5rem;
-  color: #2c3e50;
+  color: var(--text-heading);
   margin-bottom: 85px;
   font-weight: 500;
 }
@@ -412,7 +406,7 @@
 
 .process-step p {
   font-size: 1rem;
-  color: var(--secondary-color);
+  color: var(--text-for-pages);
   line-height: 1.6;
   text-align: center;
 }

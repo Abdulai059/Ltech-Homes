@@ -9,20 +9,7 @@ Table of content:
 2. Enhanced video popup container styling
 --------------------------------------*/
 
-:root {
-  --primary-color: #d32f2f;
-  --secondary-color: #666;
-  --bg-color: #fff;
-  --light-bg: #f8f9fa;
-  --text-color: #333;
-  --light-text: #7f8c8d;
-  --defaut-light-text: #6c757d;
-  --dark-header-text: #2c3e50;
-  --text-color-dark: #333;
-  --text-color-light: #666;
-  --bg-light: #f8f9fa;
-  --border-color: #dee2e6;
-}
+@import url('/assets/css/root.css');
 
 .wcd-container {
   max-width: 1200px;
@@ -38,7 +25,7 @@ Table of content:
 
 .wcd-section-tag {
   display: inline-block;
-  color: #000000;
+  color: var(--color-black);
   font-weight: bold;
   font-size: 1rem;
   letter-spacing: 2px;
@@ -48,7 +35,7 @@ Table of content:
 }
 
 .wcd-tage-title {
-  color: #d32f2f;
+  color: var(--color-primary);
 }
 .wcd-section-tag::before,
 .wcd-section-tag::after {
@@ -79,14 +66,14 @@ Table of content:
 .wcd-left-content h1 {
   font-size: 3.1rem;
   font-weight: 600;
-  color: #2c3e50;
+  color: var(--text-heading);
   margin-bottom: 30px;
   line-height: 1.2;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
 }
 
 .wcd-description {
-  color: #6c757d;
+  color: var(--text-muted);
   font-size: 1.01rem;
   line-height: 1.6;
   margin-bottom: 35px;
@@ -110,7 +97,7 @@ Table of content:
 }
 
 .wcd-sidebar {
-  background: #f8f9fa;
+  background: var(--bg-default);
   display: flex;
   flex-direction: column;
   border-right: 1px solid #e9ecef;
@@ -133,12 +120,12 @@ Table of content:
 
 .wcd-sidebar-item.active {
   /* background: #d4a853; */
-  background: #d32f2f;
-  color: white;
+  background: var(--color-primary);
+  color: var(--bg-default);
 }
 
 .wcd-sidebar-item:not(.active) {
-  background: white;
+  background: var(--bg-default);
   color: #6c757d;
   border: 2px solid #e9ecef;
 }
@@ -159,7 +146,7 @@ Table of content:
 .wcd-mission-description {
   font-size: 1.01rem;
   line-height: 1.6;
-  color: #6c757d;
+  color: var(--text-muted);
   max-width: 500px;
 }
 
@@ -196,7 +183,7 @@ Table of content:
 }
 
 .wcd-service-item:hover {
-  background-color: #f8f9fa;
+  background-color:  var(--bg-default);
 }
 
 .wcd-service-icon {
@@ -209,7 +196,7 @@ Table of content:
 
 .wcd-service-text {
   font-size: 15px;
-  color: #6c757d;
+  color: var(--text-muted);
   font-weight: 450;
 }
 
@@ -589,8 +576,8 @@ Table of content:
   right: -10px;
   width: 35px;
   height: 35px;
-  background: #ff4757;
-  color: white;
+  background: var(--color-primary);
+  color: var(--bg-default);
   border: none;
   border-radius: 50%;
   cursor: pointer;
@@ -604,7 +591,7 @@ Table of content:
 }
 
 .wcd-close-button:hover {
-  background: #ff3742;
+  background: var(--color-primary);
   transform: rotate(90deg);
 }
 
@@ -615,7 +602,7 @@ Table of content:
 }
 
 .wcd-demo-note {
-  color: var(--secondary-color);
+  color: var(--text-muted);
   text-align: center;
   margin-top: 20px;
   font-size: 0.9rem;
@@ -624,7 +611,7 @@ Table of content:
 .wcd-demo-note span {
   font-weight: 600;
   font-size: 1rem;
-  color: var(--primary-color);
+  color: var(--color-primary);
 }
 
 .wcd-background-overlay {

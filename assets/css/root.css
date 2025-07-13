@@ -1,0 +1,19 @@
+/* /css/root.css */
+:root {
+  --color-primary: #d32f2f;
+  --color-secondary: #666666;
+  --color-black: #000000; 
+  
+
+  --bg-default: #ffffff;
+  --bg-light: #f8f9fa;
+
+  --text-dark: #333333;
+  --text-light: #666666;
+  --text-muted: #6c757d;
+  --text-subtle: #7f8c8d;
+  --text-heading: #2c3e50;
+  --text-for-pages: #34495e;
+
+  --border-color: #dee2e6;
+}

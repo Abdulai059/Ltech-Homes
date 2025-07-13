@@ -1,25 +1,20 @@
-:root {
-  --primary-color: #d32f2f;
-  --secondary-color: #666;
-  --bg-color: #fff;
-  --light-bg: #f8f9fa;
-  --text-color: #333;
-  --light-text: #7f8c8d;
-  --defaut-light-text: #6c757d;
-  --dark-header-text: #2c3e50;
-}
+/*-------------------------
+ Header Section 
+ -------------------------*/
+
+@import url('/assets/css/root.css');
+
 
 .pm-container {
   max-width: 1000px;
   margin: 2rem auto;
   padding: 0 20px;
+  color: var(--text-for-pages);
 }
 
-/*-------------------------
- Header Section 
- -------------------------*/
+
 .pm-header {
-  background: var(--light-bg);
+  background: var(--bg-light);
   padding: 80px 0 60px;
   text-align: center;
 }
@@ -27,7 +22,7 @@
 .pm-header h1 {
   font-size: 3.5rem;
   font-weight: 500;
-  color: var(--dark-header-text);
+  color: var(--text-heading);
   margin-bottom: 20px;
   letter-spacing: -1px;
 }
@@ -74,7 +69,7 @@
 
 .value-prop h3 {
   font-size: 2.2rem;
-  color: var(--primary-color);
+  color: var(--color-primary);
   margin-bottom: 25px;
   font-weight: 600;
   position: relative;
@@ -91,7 +86,7 @@
 
 /* Professional Associations */
 .associations {
-  background: var(--light-bg);
+  background: var(--bg-light);
   padding: 60px 50px;
   display: flex;
   flex-direction: column;
@@ -100,7 +95,7 @@
 
 .associations h3 {
   font-size: 2rem;
-  color: var(--primary-color);
+  color: var(--color-primary);
   margin-bottom: 30px;
   font-weight: 600;
 }
@@ -111,7 +106,7 @@
 
 .association-list li {
   font-size: 0.93rem;
-  color: #34495e;
+  /* color: #34495e; */
   margin-bottom: 15px;
   padding-left: 20px;
   position: relative;
@@ -120,7 +115,7 @@
 
 .association-list li::before {
   content: "•";
-  color: var(--primary-color);
+  color: var(--color-primary);
   font-size: 1.5rem;
   position: absolute;
   left: 0;
@@ -136,7 +131,7 @@ Intern Section
 
 .intern-title {
   font-size: 1.9rem;
-  color: var(--dark-header-text);
+  color: var(--text-heading);
   font-weight: 450;
   margin-bottom: 15px;
   position: relative;
@@ -150,19 +145,19 @@ Intern Section
   top: 0;
   width: 4px;
   height: 40px;
-  background-color: var(--primary-color);
+  background-color: var(--color-primary);
 }
 
 .intern-description {
   font-size: 15px;
   line-height: 1.7;
-  color: var(--secondary-color);
+  /* color: var(--secondary-color); */
   /* margin-bottom: 12px; */
   padding-left: 25px;
   text-align: justify;
 }
 .intern-tag {
-  color: var(--primary-color);
+  color: var(--color-primary);
   font-weight: 500;
 }
 

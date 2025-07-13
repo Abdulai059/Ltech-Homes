@@ -1,25 +1,20 @@
-:root {
-  --primary-color: #d32f2f;
-  --secondary-color: #666;
-  --bg-color: #fff;
-  --light-bg: #f8f9fa;
-  --text-color: #333;
-  --light-text: #7f8c8d;
-  --defaut-light-text: #6c757d;
-  --dark-header-text: #2c3e50;
-}
+/*-------------------
+ Header Section 
+ --------------------*/
+
+@import url('/assets/css/root.css');
+
 
 .pd-container {
   max-width: 1000px;
   margin: 7rem auto;
   /* padding: 0 20px; */
+  color: var(--text-for-pages);
 }
 
-/*-------------------
- Header Section 
- --------------------*/
+
 .pd-header {
-  background: var(--light-bg);
+  background: var(--bg-light);
   padding: 80px 0 60px;
   text-align: center;
 }
@@ -27,7 +22,7 @@
 .pd-header h1 {
   font-size: 3.5rem;
   font-weight: 500;
-  color: #2c3e50;
+  color: var(--text-heading);
   margin-bottom: 20px;
   letter-spacing: -1px;
 }
@@ -76,7 +71,7 @@ Value Proposition
 
 .pd-value-prop h3 {
   font-size: 2.2rem;
-  color: var(--primary-color);
+  color: var(--color-primary);
   margin-bottom: 25px;
   font-weight: 600;
   position: relative;
@@ -93,7 +88,7 @@ Value Proposition
 
 /* Professional Associations */
 .pd-associations {
-  background: var(--light-bg);
+  background: var(--bg-light);
   padding: 60px 50px;
   display: flex;
   flex-direction: column;
@@ -102,7 +97,7 @@ Value Proposition
 
 .pd-associations h3 {
   font-size: 2rem;
-  color: var(--primary-color);
+  color: var(--color-primary);
   margin-bottom: 30px;
   font-weight: 600;
 }
@@ -123,7 +118,7 @@ Value Proposition
 
 .pd-association-list li::before {
   content: "•";
-  color: var(--primary-color);
+  color: var(--color-primary);
   font-size: 1.5rem;
   position: absolute;
   left: 0;
@@ -133,9 +128,9 @@ Value Proposition
 /*------------------------
 Features Section
 --------------------------- */
-.pd-features-section {
-  color: var(--dark-header-text);
-}
+/* .pd-features-section {
+  color: var(--text-dark);
+} */
 
 .pd-features-section h2 {
   text-align: center;
@@ -144,7 +139,7 @@ Features Section
   font-weight: 500;
   width: 700px;
   padding: 20px;
-  color: var(--dark-header-text);
+  color: var(--text-heading);
   margin: 0 auto;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0, 1.5);
 }
@@ -183,13 +178,17 @@ Features Section
   padding: 14px 14px;
   border-radius: 10px;
   font-size: 26px;
-  background-color: var(--light-bg);
+  background-color: var(--bg-light);
+}
+
+.pd-features-container{
+  margin-top: 2rem;
 }
 
 .pd-feature-card h4 {
   font-size: 1rem;
   margin: 20px 0 15px;
-  color: var(--dark-header-text);
+  color: var(--text-dark);
   font-weight: 600;
 }
 
@@ -223,10 +222,10 @@ Features Section
  Property Development Stats Section 
 ----------------------------*/
 .pd-stats-section {
-  background: var(--light-bg);
+  background: var(--bg-light);
   padding: 15px 0;
   margin-top: 4rem;
-  color: var(--dark-header-text);
+  color: var(--text-dark);
 }
 
 .pd-stats-grid {
@@ -244,7 +243,7 @@ Features Section
 .pd-stat-number {
   font-size: 3rem;
   font-weight: 500;
-  color: var(--primary-color);
+  color: var(--color-primary);
   display: block;
   margin-bottom: 10px;
 }
@@ -265,7 +264,7 @@ Intern Section
 
 .pd-intern-title {
   font-size: 2.3rem;
-  color: var(--dark-header-text);
+  color: var(--text-heading);
   font-weight: 450;
   margin-bottom: 15px;
   position: relative;
@@ -281,19 +280,19 @@ Intern Section
   top: 5%;
   width: 4px;
   height: 40px;
-  background-color: var(--primary-color);
+  background-color: var(--color-primary);
 }
 
 .pd-intern-description {
   font-size: 16px;
   line-height: 1.7;
-  color: var(--dark-header-text);
+  /* color: var(--text-dark); */
   max-width: 400px;
   margin: 0 auto;
   text-align: center;
 }
 .pd-intern-tag {
-  color: var(--primary-color);
+  color: var(--color-primary);
 }
 
 .pd-cta-button {
@@ -325,6 +324,10 @@ Intern Section
     margin: 1rem auto;
   }
 
+  .pd-features-container{
+    margin-top: 0rem;
+  }
+  
   .pd-content {
     padding: 30px;
     text-align: start;

@@ -132,15 +132,21 @@
   <!-- START PORFOLIO SECTION-->
   <?php include 'about-us/faqs.php'; ?>
 
+  <!-- START PROPERTIES SECTION-->
+  <?php include 'about-us/properties-section.php'; ?>
+
   <!-- START TESTIMONIAL SECTION -->
   <?php include 'about-us/testimonial.php'; ?>
 
 
   <!-- START SECTION TEAMS -->
-  <section class="team-section">
-    <?php include 'about-us/our-team.php'; ?>
-  </section>
+  <?php if (false): ?>
+    <section class="team-section">
+      <?php include 'about-us/our-team.php'; ?>
+    </section>
+  <?php endif; ?>
 
+  
   <!-- START OUR PARTNES SECTION -->
   <?php include 'about-us/our-partners.php'; ?>
 

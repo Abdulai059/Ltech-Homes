@@ -1,91 +1,69 @@
 
-      /* =======================
-         GLOBAL STYLES
-         ======================= */
-      :root {
-        --primary-color: #d32f2f;
-        --secondary-color: #666;
-        --bg-color: #fff;
-        --light-bg: #f8f9fa;
-        --text-color: #333;
-        --light-text: #7f8c8d;
-        --default-light-text: #6c757d;
-        --dark-header-text: #2c3e50;
-      }
 
-      * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-      }
+@import url("/assets/css/root.css");
 
-      body {
-        font-family: "Arial", sans-serif;
-        line-height: 1.6;
-        color: #333;
-        background: #f5f5f5;
-      }
 
-      .contact-wrapper {
-        max-width: 1150px;
-        margin: 0rem auto;
-        padding: 13rem 1.8rem;
-        color: var(--default-light-text);
-        /* padding: 40px 20px; */
-      }
+.contact-wrapper {
+  max-width: 1150px;
+  margin: 0rem auto;
+  padding: 13rem 1.8rem;
+  color: var(--text-muted);
+  /* padding: 40px 20px; */
+}
 
-      /* =======================
+/*---------------------------
          MAP SECTION
-         ======================= */
-      .contact-us-section {
-        padding: 0;
-        background: white;
-      }
+         ------------------------- */
+.contact-us-section {
+  padding: 0;
+  background: white;
+}
 
-      .maps-title {
-        font-size: 4rem;
-        margin-bottom: 2rem;
-        font-weight: 500;
-        color: var(--text-color);
-      }
+.maps-title {
+  font-size: 4rem;
+  margin-bottom: 2rem;
+  font-weight: 500;
+  color: var(--text-heading);
+}
 
-      .maps-description {
-        font-size: 14x;
-      }
+.maps-description {
+  font-size: 14x;
+}
 
-      @media (max-width: 768px) {
-       .contact-us-section{
-        width: 100%;
-        margin: 0;
-       }
+@media (max-width: 768px) {
+  .contact-us-section {
+    width: 100%;
+    margin: 0;
+  }
 
-        .contact-section{
-        width: 100%;
-       }
-       
-      .contact-wrapper {
-       width: 100%;
-       padding: 5rem 0;
-      }
-      /* .maps-frame{
+  .contact-section {
+    width: 100%;
+  }
+
+  .contact-wrapper {
+    width: 100%;
+    padding: 5rem 0;
+  }
+  /* .maps-frame{
         width: 100%;
         margin: 0;
       } */
-       .maps-title {
-        font-size: 3rem;}
+  .maps-title {
+    font-size: 3rem;
+  }
 
-      .map{
-        padding: 0 0;
-        height: 300px;
-      }
-    }
+  .map {
+    padding: 0 0;
+    height: 300px;
+  }
+}
 
 /*-----------------------
  Enquiry Form Section 
  -----------------------*/
 
 .contact-form-container {
-  background: var(--light-bg);
+  background: var(--bg-light);
   padding: 15px;
   margin: 3rem 0;
   border-radius: 1px;
@@ -330,7 +308,13 @@
   color: #333;
 }
 
-.contact-newsletter-text .contact-newsletter-policy{
+.contact-or{
+color: var(--color-primary);
+font-size: 1.1rem;
+padding: 0 10px;
+}
+
+.contact-newsletter-text .contact-newsletter-policy {
   font-size: 1rem;
   color: #6c757d;
   line-height: 1.5;
@@ -605,180 +589,177 @@
   }
 }
 
+/*--------------------------
+CONTACT DETAILS SECTION
+---------------------------*/
+.contact-section {
+  padding: 15px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+}
 
+.details-title {
+  font-size: 2.5rem;
+  color: var(--color-primary);
+  font-weight: 700;
+  grid-column: 1 / -1;
+}
 
-      /* =======================
-         CONTACT DETAILS SECTION
-         ======================= */
-      .contact-section {
-        padding: 15px;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 60px;
-      }
+.office-list {
+  list-style: none;
+}
 
-      .details-title {
-        font-size: 2.5rem;
-        color: var(--primary-color);
-        font-weight: 700;
-        grid-column: 1 / -1;
-      }
+.office-item {
+  padding: 18px 0;
+  border-bottom: 1px solid #eee;
+  cursor: pointer;
+  position: relative;
+  padding-left: 40px;
+  font-size: 14px;
+  color: var(--text-dark);
+}
 
-      .office-list {
-        list-style: none;
-      }
+.office-item:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 18px;
+  height: 18px;
+  background: var(--color-primary);
+  border-radius: 50%;
+}
 
-      .office-item {
-        padding: 18px 0;
-        border-bottom: 1px solid #eee;
-        cursor: pointer;
-        position: relative;
-        padding-left: 40px;
-        font-size: 14px;
-        color: var(--text-color);
-      }
+.office-item.active {
+  color: var(--color-primary);
+  font-weight: bold;
+  font-size: 1rem;
+  padding-left: 45px;
+}
 
-      .office-item:before {
-        content: "";
-        position: absolute;
-        left: 0;
-        top: 50%;
-        transform: translateY(-50%);
-        width: 18px;
-        height: 18px;
-        background: var(--primary-color);
-        border-radius: 50%;
-      }
+.office-item.active:before {
+  background: var(--color-primary);
+}
 
-      .office-item.active {
-        color: var(--primary-color);
-        font-weight: bold;
-        font-size: 1rem;
-        padding-left: 45px;
-      }
+.office-details {
+  background: #f8f9fa;
+  padding: 40px;
+  border-left: 2px solid var(--color-primary);
+}
 
-      .office-item.active:before {
-        background: var(--primary-color);
-      }
+.office-name {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+}
 
-      .office-details {
-        background: #f8f9fa;
-        padding: 40px;
-        border-left: 2px solid var(--primary-color);
-      }
+.office-subtitle {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #666;
+}
 
-      .office-name {
-        font-size: 1.8rem;
-        font-weight: bold;
-        margin-bottom: 10px;
-        color: #333;
-      }
+.office-address {
+  margin-bottom: 30px;
+  line-height: 1.8;
+  font-size: 1rem;
+  color: #555;
+}
 
-      .office-subtitle {
-        font-size: 1.2rem;
-        font-weight: bold;
-        margin-bottom: 20px;
-        color: #666;
-      }
+.contact-info {
+  display: grid;
+  gap: 15px;
+}
 
-      .office-address {
-        margin-bottom: 30px;
-        line-height: 1.8;
-        font-size: 1rem;
-        color: #555;
-      }
+.contact-row {
+  display: grid;
+  grid-template-columns: 80px 1fr;
+  align-items: center;
+}
 
-      .contact-info {
-        display: grid;
-        gap: 15px;
-      }
+.contact-label {
+  font-weight: bold;
+  color: #333;
+  font-size: 1rem;
+}
 
-      .contact-row {
-        display: grid;
-        grid-template-columns: 80px 1fr;
-        align-items: center;
-      }
+.contact-value {
+  color: #555;
+  font-size: 1rem;
+}
 
-      .contact-label {
-        font-weight: bold;
-        color: #333;
-        font-size: 1rem;
-      }
+.contact-value.website {
+  color: var(--color-primary);
+  text-decoration: none;
+  font-weight: bold;
+}
 
-      .contact-value {
-        color: #555;
-        font-size: 1rem;
-      }
+.contact-value.website:hover {
+  text-decoration: underline;
+}
 
-      .contact-value.website {
-        color: var(--primary-color);
-        text-decoration: none;
-        font-weight: bold;
-      }
-
-      .contact-value.website:hover {
-        text-decoration: underline;
-      }
-
-      /* =======================
+/* =======================
          RESPONSIVE STYLES
          ======================= */
-      @media (max-width: 768px) {
-        .contact-us-section,
-        .enquiry-section,
-        .contact-section {
-          padding: 30px 30px;
-        }
+@media (max-width: 768px) {
+  .contact-us-section,
+  .enquiry-section,
+  .contact-section {
+    padding: 30px 30px;
+  }
 
-        .contact-us-section {
-          padding: 0px;
-        }
+  .contact-us-section {
+    padding: 0px;
+  }
 
-        .office-details {
-          padding: 27px;
-        }
+  .office-details {
+    padding: 27px;
+  }
 
-        .form-row {
-          grid-template-columns: 1fr;
-          gap: 20px;
-        }
+  .form-row {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
 
-        .contact-section {
-          grid-template-columns: 1fr;
-          gap: 40px;
-        }
+  .contact-section {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
 
-        .form-title,
-        .details-title {
-          font-size: 2.5rem;
-        }
-      }
+  .form-title,
+  .details-title {
+    font-size: 2.5rem;
+  }
+}
 
-      @media (max-width: 480px) {
-        .contact-us-section,
-        .enquiry-section,
-        .contact-section {
-          padding: 30px 20px;
-        }
+@media (max-width: 480px) {
+  .contact-us-section,
+  .enquiry-section,
+  .contact-section {
+    padding: 30px 20px;
+  }
 
-        .form-title,
-        .details-title {
-          font-size: 2rem;
-        }
+  .form-title,
+  .details-title {
+    font-size: 2rem;
+  }
 
-        .success-message {
-          min-width: 320px;
-          padding: 40px 30px;
-          margin: 0 20px;
-        }
+  .success-message {
+    min-width: 320px;
+    padding: 40px 30px;
+    margin: 0 20px;
+  }
 
-        .success-message::before {
-          font-size: 3rem;
-          margin-bottom: 15px;
-        }
+  .success-message::before {
+    font-size: 3rem;
+    margin-bottom: 15px;
+  }
 
-        .success-title {
-          font-size: 1.3rem;
-        }
-      }
-    
+  .success-title {
+    font-size: 1.3rem;
+  }
+}

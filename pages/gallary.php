@@ -89,19 +89,31 @@
 
             <div class="gallery-container">
                 <div class="gallery-grid">
+                    
                     <!-- All Images (3 items) -->
                     <div class="gallery-item" data-category="all houses">
                         <img
-                            src="https://res.cloudinary.com/ltect-homes/image/upload/12_w6sujr.jpg" />
-                    </div>
-                    <div class="gallery-item" data-category="all apartments">
-                        <img
-                            src="https://res.cloudinary.com/ltect-homes/image/upload/v1752077871/2_ayxqml.jpg" />
+                            src="https://res.cloudinary.com/ltect-homes/image/upload/121_g9gyy7.jpg" />
                     </div>
 
                     <div class="gallery-item" data-category="all">
                         <img
-                            src="https://res.cloudinary.com/ltect-homes/image/upload/v1752077976/14_zrwtxy.jpg"
+                            src="https://res.cloudinary.com/ltect-homes/image/upload/6_etwcif.jpg"
+                            alt="Luxury Villa" />
+                    </div>
+                    <div class="gallery-item" data-category="all">
+                        <img
+                            src="https://res.cloudinary.com/ltect-homes/image/upload/1_zgcd1c.jpg"
+                            alt="Luxury Villa" />
+                    </div>
+                    <div class="gallery-item" data-category="all">
+                        <img
+                            src="https://res.cloudinary.com/ltect-homes/image/upload/9_q1u9bv.jpg"
+                            alt="Luxury Villa" />
+                    </div>
+                    <div class="gallery-item" data-category="all">
+                        <img
+                            src="https://res.cloudinary.com/ltect-homes/image/upload/v1752352476/3_iokxyy.jpg"
                             alt="Luxury Villa" />
                     </div>
 
@@ -126,19 +138,20 @@
                     </div>
                     <div class="gallery-item" data-category="houses">
                         <img
-                            src="https://res.cloudinary.com/ltect-homes/image/upload/v1752101961/003_x41tpj.jpg"
+                            src="https://res.cloudinary.com/ltect-homes/image/upload/v1752357318/22_rdhbkt.webp"
                             alt="Modern House" />
                     </div>
+
 
                     <!-- Apartments (3 items) -->
                     <div class="gallery-item" data-category="apartments">
                         <img
-                            src="https://res.cloudinary.com/ltect-homes/image/upload/v1752101582/app_lwlja1.webp"
+                            src="https://res.cloudinary.com/ltect-homes/image/upload/v1752356947/17_lyra65.jpg"
                             alt="City Apartment" />
                     </div>
                     <div class="gallery-item" data-category="apartments">
                         <img
-                            src="https://res.cloudinary.com/ltect-homes/image/upload/v1752101947/004_fxa5ht.jpg"
+                            src="https://res.cloudinary.com/ltect-homes/image/upload/v1752356971/20_spkdaq.jpg"
                             alt="Studio Apartment" />
                     </div>
                     <div class="gallery-item" data-category="apartments">
@@ -147,18 +160,34 @@
                             alt="Modern Apartment" />
                     </div>
 
-                    <!-- Commercial (3 items) -->
+                    <div class="gallery-item" data-category="all">
+                        <img
+                            src="https://res.cloudinary.com/ltect-homes/image/upload/v1752077850/1_kx1aqd.jpg"
+                            alt="Luxury Villa" />
+                    </div>
+
+                    <div class="gallery-item" data-category="all">
+                        <img
+                            src="https://res.cloudinary.com/ltect-homes/image/upload/v1752077976/14_zrwtxy.jpg"
+                            alt="Luxury Villa" />
+                    </div>
+
+                    <div class="gallery-item" data-category="all">
+                        <img
+                            src="https://res.cloudinary.com/ltect-homes/image/upload/v1752077871/2_ayxqml.jpg"
+                            alt="Luxury Villa" />
+                    </div>
 
 
                     <!-- Land (1 item) -->
                     <div class="gallery-item" data-category="land">
                         <img
-                            src="https://res.cloudinary.com/ltect-homes/image/upload/v1752100935/images_eqwpyx.jpg"
+                            src="https://res.cloudinary.com/ltect-homes/image/upload/v1752365695/401_esjsml.jpg"
                             alt="Vacant Land" />
                     </div>
                     <div class="gallery-item" data-category="land">
                         <img
-                            src="https://res.cloudinary.com/ltect-homes/image/upload/v1752101591/002_ibwwcp.jpg"
+                            src="https://res.cloudinary.com/ltect-homes/image/upload/v1752366449/Amasaman-848x530_ffcuhg.jpg"
                             alt="Vacant Land" />
                     </div>
                 </div>

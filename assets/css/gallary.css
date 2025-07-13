@@ -1,31 +1,4 @@
-
-:root {
-  --primary-color: #d32f2f;
-  --secondary-color: #666;
-  --bg-color: #fff;
-  --light-bg: #f8f9fa;
-  --text-color: #333;
-  --light-text: #7f8c8d;
-  --defaut-light-text: #6c757d;
-  --dark-header-text: #2c3e50;
-  --text-color-dark: #333;
-  --text-color-light: #666;
-  --bg-light: #f8f9fa;
-  --border-color: #dee2e6;
-}
-
-/* * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: "Inter", sans-serif;
-  background-color: #f8fafc;
-  color: #0f172a;
-  line-height: 1.6;
-} */
+@import url('/assets/css/root.css');
 
 .gallary-content {
   max-width: 1280px;
@@ -101,7 +74,7 @@ body {
   /* background-color: rgba(211, 47, 47, 0.5); */
   backdrop-filter: blur(10px);
   background-color: rgba(211, 47, 47, 0.2);
-  color: var(--bg-color);
+  color: var(--bg-default);
   padding: 1rem 2.5rem;
   border-radius: 0.5rem;
   text-decoration: none;
@@ -143,16 +116,16 @@ body {
 }
 
 .filter-btn:hover {
-  background-color: #f1f5f9;
+  /* background-color: #f1f5f9; */
   /* border-color: #d4af37; */
-  border-color: var(--primary-color);
+  border-color: var(--color-primary);
 }
 
 .filter-btn.active {
   /* background-color: #d4af37; */
-  background-color: var(--primary-color);
-  color: var(--bg-color);
-  border-color: var(--primary-color);
+  background-color: var(--color-primary);
+  color: var(--bg-default);
+  border-color: var(--color-primary);
   /* border-color: #d4af37; */
 }
 
@@ -175,7 +148,7 @@ body {
   font-weight: 700;
   margin-bottom: 1.5rem;
   text-align: center;
-  color: var(--text-color);
+  color: var(--text-dark);
 }
 
 .category {
@@ -202,7 +175,7 @@ body {
 .category h3 {
   font-size: 1.2rem;
   font-weight: 600;
-  color: var(--text-color);
+  color: var(--text-dark);
   padding-top: 10px;
   margin-bottom: 0.75rem;
 }

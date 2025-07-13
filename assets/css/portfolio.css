@@ -1,13 +1,5 @@
-:root {
-    --primary-color: #d32f2f;
-    --secondary-color: #666;
-    --bg-color: #fff;
-    --light-bg: #f8f9fa;
-    --text-color: #333;
-    --light-text: #7f8c8d;
-    --defaut-light-text: #6c757d;
-    --dark-header-text: #2c3e50;
-  }
+@import url('/assets/css/root.css');
+
 
 .portfolio-section {
   font-family: "Arial", sans-serif;
@@ -39,7 +31,7 @@
   font-size: 14px;
   font-weight: 600;
   /* color: #e6b800; */
-  color: var(--primary-color);
+  color: var(--color-primary);
   text-transform: uppercase;
   letter-spacing: 2px;
   position: relative;
@@ -53,15 +45,15 @@
   transform: translateY(-50%);
   width: 40px;
   height: 3px;
-  background: #d32f2f;
+  background: var(--color-primary);
   /* background: linear-gradient(90deg, #e6b800, #ffd700); */
   border-radius: 2px;
 }
 
 .main-title {
   font-family: "Barlow", sans-serif !important;
-  font-size: 3.2rem;
-  font-weight: 600;
+  font-size: 2.9rem;
+  font-weight: 520;
   color: var(--text-color);
   background: linear-gradient(135deg, #2c3e50, #34495e);
   -webkit-background-clip: text;
@@ -72,8 +64,8 @@
 
 .view-all-btn {
   /* background: linear-gradient(135deg, #e6b800, #ffd700); */
-  background-color: #d32f2f;
-  color: white;
+  background-color: var(--color-primary);
+  color: var(--bg-default);
   border: none;
   padding: 15px 30px;
   font-size: 14px;
@@ -104,8 +96,6 @@
   );
   transition: left 0.5s ease;
 }
-
-
 
 .view-all-btn:hover::before {
   left: 100%;
@@ -174,19 +164,19 @@
 }
 
 .project-1 {
-  background-image: url("https://res.cloudinary.com/ltect-homes/image/upload/v1751840313/Regimanuel-Gray-Eagles-Place-Sakumono_cirpe9.webp");
+  background-image: url("https://res.cloudinary.com/ltect-homes/image/upload/v1752357318/22_rdhbkt.webp");
 }
 .project-2 {
   background-image: url("https://res.cloudinary.com/ltect-homes/image/upload/v1752077933/8_quq37j.avif");
 }
 .project-3 {
-  background-image: url("https://res.cloudinary.com/ltect-homes/image/upload/v1752101947/004_fxa5ht.jpg");
+  background-image: url("https://res.cloudinary.com/ltect-homes/image/upload/v1752356971/20_spkdaq.jpg");
 }
 .project-4 {
-  background-image: url("https://res.cloudinary.com/ltect-homes/image/upload/v1751654661/project_1_5_di4xqz.jpg");
+  background-image: url("https://res.cloudinary.com/ltect-homes/image/upload/v1752357279/121_g9gyy7.jpg");
 }
 .project-5 {
-  background-image: url("https://res.cloudinary.com/ltect-homes/image/upload/v1752101961/003_x41tpj.jpg");
+  background-image: url("https://res.cloudinary.com/ltect-homes/image/upload/v1752352492/5_ye2tpl.jpg");
 }
 .project-6 {
   background-image: url("https://res.cloudinary.com/ltect-homes/image/upload/v1751654661/project_1_5_di4xqz.jpg");
@@ -198,13 +188,13 @@
   right: 20px;
   width: 40px;
   height: 40px;
-  background: var(--primary-color);
+  background: var(--color-primary);
   /* background: linear-gradient(135deg, #e6b800, #ffd700); */
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: white;
+  color: var(--bg-default);
   font-size: 20px;
   font-weight: bold;
   box-shadow: 0 4px 15px rgba(255, 0, 0, 0.5);
@@ -250,7 +240,7 @@
   width: 7px;
   height: 7px;
   /* background: #e6b800; */
-  background: var(--primary-color);
+  background: var(--color-primary);
   opacity: 0.3;
   transition: all 0.3s ease;
 }
@@ -273,10 +263,9 @@
 } */
 
 .portfolio-swiper .swiper-button-next,
-  .portfolio-swiper .swiper-button-prev {
-    display: none;
-  }
-
+.portfolio-swiper .swiper-button-prev {
+  display: none;
+}
 
 .portfolio-swiper .swiper-button-next:hover,
 .portfolio-swiper .swiper-button-prev:hover {
@@ -306,15 +295,15 @@
 
   .project-label::after {
     content: "";
-  position: absolute;
-  right: -40px;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 40px;
-  height: 2px;
-  background: #d32f2f;
-  /* background: linear-gradient(90deg, #e6b800, #ffd700); */
-  border-radius: 2px;
+    position: absolute;
+    right: -40px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 2px;
+    background: var(--color-primary);
+    /* background: linear-gradient(90deg, #e6b800, #ffd700); */
+    border-radius: 2px;
   }
 
   .portfolio-swiper .swiper-button-next,
@@ -342,6 +331,4 @@
     position: static !important;
     margin-top: 15px;
   }
-
-  
 }

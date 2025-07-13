@@ -80,16 +80,17 @@
         <h2 id="furetures-title" data-aos="fade-up"
           data-aos-delay="120"><span class="fm-tag">Why </span>Choose Our Services</h2>
         <div class="features-grid">
-          <div class="feature-column" data-aos="zoom-in"
-            data-aos-delay="120">
-            <div class="feature-item">
+          <div class="feature-column">
+            <div class="feature-item" data-aos="zoom-in"
+              data-aos-delay="120">
               <span class="feature-icon-small">⚡</span>
               <div class="feature-content">
                 <h4>24/7 Response</h4>
                 <p>Round-the-clock emergency response and support services</p>
               </div>
             </div>
-            <div class="feature-item">
+            <div class="feature-item" data-aos="zoom-in"
+              data-aos-delay="125">
               <span class="feature-icon-small">👥</span>
               <div class="feature-content">
                 <h4>Expert Team</h4>
@@ -97,16 +98,17 @@
               </div>
             </div>
           </div>
-          <div class="feature-column" data-aos="zoom-in"
-            data-aos-delay="130">
-            <div class=" feature-item">
+          <div class="feature-column">
+            <div class=" feature-item" data-aos="zoom-in"
+              data-aos-delay="130">
               <span class="feature-icon-small">💎</span>
               <div class="feature-content">
                 <h4>Quality Assurance</h4>
                 <p>Rigorous quality control processes and performance standards</p>
               </div>
             </div>
-            <div class="feature-item">
+            <div class="feature-item" data-aos="zoom-in"
+              data-aos-delay="135">
               <span class="feature-icon-small">🎯</span>
               <div class="feature-content">
                 <h4>Customized Solutions</h4>

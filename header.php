@@ -27,6 +27,7 @@
 
 
   <!--component css stylesheet-->
+  <link rel="stylesheet" href="/assets/css/root.css">
   <link rel="stylesheet" href="/assets/css/main.css">
   <link rel="stylesheet" href="/assets/css/navbar.css" />
   <link rel="stylesheet" href="/assets/css/why-choose-us.css">
@@ -38,6 +39,7 @@
   <link rel="stylesheet" href="/assets/css/testimonial.css">
   <link rel="stylesheet" href="/assets/css/our-partners.css">
   <link rel="stylesheet" href="/assets/css/gallary.css">
+  <link rel="stylesheet" href="/assets/css/properties-section.css">
 
 
   <!-- GOOGLE FONTS -->
